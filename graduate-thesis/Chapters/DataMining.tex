@@ -5,7 +5,6 @@ This chapter introduces the data transformation method used in this dissertation
 \section{Remove invalid or missing data}
 As a real-world applications of data mining, there are some invalid or missing data in the original data collection. This system should automatically remove invalid data from the raw data and replace missing values with rational information. The rule to handle data is as follows,
 
-\clearpage
 \begin{itemize}
 	\item Data on holiday. One example is in figure~\ref{fg:invalid_data}, Jan 1, 2016 is New Year Day, and Dec 25, 2015 is Christmas day. There are no transactions on these two days, but in Yahoo Finance, holidays like there are still listed there. Information about Hong Kong holidays are collected from http://www.timeanddate.com/, and after downloading data from Yahoo Finance, the system would automatically remove these holiday transaction data.
 	\begin{figure}[h]
@@ -21,7 +20,6 @@ As a real-world applications of data mining, there are some invalid or missing d
 		\caption{Example for missing data}
 		\label{fg:missing_data}
 	\end{figure}
-	\clearpage
 	\item Time difference. This is a big issue when the system queries some data based on different time zone from Hong Kong Time (HKT, GMT+8), e.g. New York time (GMT -4), which is 12 hours behind HKT. Obviously, at the beginning of each transaction day in Hong Kong, it is impossible to get the same day information in NY. Thus, the date of data at NYT should be one day prior to that in HKT.
 \end{itemize}
 
@@ -67,7 +65,6 @@ This normalization method shares same problem with min-max, the mean average and
 
 
 To avoid this problem, in this experiment, standard deviation normalization is mainly used to normalize the absolute difference value of price.
-\clearpage
 
 \subsection{Sigmoid Normalization\cite{nayak2014impact}}
 This normalization method is used in the training process of Artificial Neural Network. The data value $v$ is computed through,
@@ -181,6 +178,6 @@ The following figure shows the visualization before and after PCA.
 	\caption{Data visualization before and after PCA transformation\cite{6_tan_steinbach_kumar_2005}}
 \end{figure}
 
-\clearpage
+
 \section{Summary}
 This chapter introduces data select rule and transform methods used this this dissertation. After the above process, the output data would be clean and normalized, which is suitable for further process.

@@ -58,102 +58,102 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Compare with Hadoop MapReduce}{15}{section.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Core Technology in Spark\cite {ryza2015advanced}}{18}{section.38}
+\contentsline {section}{\numberline {4.2}Core Technology in Spark\cite {ryza2015advanced}}{17}{section.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Spark Machine Learning Library (MLlib)\cite {apache_spark_mllib}}{22}{section.48}
+\contentsline {section}{\numberline {4.3}Spark Machine Learning Library (MLlib)\cite {apache_spark_mllib}}{20}{section.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Summary}{22}{section.49}
+\contentsline {section}{\numberline {4.4}Summary}{20}{section.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Data Mining Methods}{24}{chapter.50}
+\contentsline {chapter}{\numberline {5}Data Mining Methods}{22}{chapter.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Remove invalid or missing data}{24}{section.51}
+\contentsline {section}{\numberline {5.1}Remove invalid or missing data}{22}{section.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Data Normalization}{27}{section.54}
+\contentsline {section}{\numberline {5.2}Data Normalization}{24}{section.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Min-Max Normalization\cite {4_kantardzic}}{28}{subsection.55}
+\contentsline {subsection}{\numberline {5.2.1}Min-Max Normalization\cite {4_kantardzic}}{25}{subsection.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Standard Deviation Normalization\cite {4_kantardzic}}{28}{subsection.57}
+\contentsline {subsection}{\numberline {5.2.2}Standard Deviation Normalization\cite {4_kantardzic}}{26}{subsection.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Sigmoid Normalization\cite {nayak2014impact}}{30}{subsection.59}
+\contentsline {subsection}{\numberline {5.2.3}Sigmoid Normalization\cite {nayak2014impact}}{26}{subsection.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Principal Components Analysis}{30}{section.61}
+\contentsline {section}{\numberline {5.3}Principal Components Analysis}{27}{section.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Procedure of PCA\cite {4_kantardzic}}{31}{subsection.62}
+\contentsline {subsection}{\numberline {5.3.1}Procedure of PCA\cite {4_kantardzic}}{28}{subsection.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Summary}{36}{section.77}
+\contentsline {section}{\numberline {5.4}Summary}{33}{section.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Supervised Learning Method}{37}{chapter.78}
+\contentsline {chapter}{\numberline {6}Supervised Learning Method}{34}{chapter.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Linear Model}{38}{section.82}
+\contentsline {section}{\numberline {6.1}Linear Model}{35}{section.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Linear Regression}{39}{subsection.83}
+\contentsline {subsection}{\numberline {6.1.1}Linear Regression}{36}{subsection.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Linear Support Vector Machines (SVMs)}{43}{subsection.92}
+\contentsline {subsection}{\numberline {6.1.2}Linear Support Vector Machines (SVMs)}{39}{subsection.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Logistic Regression}{46}{subsection.98}
+\contentsline {subsection}{\numberline {6.1.3}Logistic Regression}{41}{subsection.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Random Forest}{47}{section.100}
+\contentsline {section}{\numberline {6.2}Random Forest}{43}{section.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Artificial Neural Network}{49}{section.102}
+\contentsline {section}{\numberline {6.3}Artificial Neural Network}{44}{section.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Summary}{51}{section.115}
+\contentsline {section}{\numberline {6.4}Summary}{46}{section.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}System Design and Evaluation Method}{52}{chapter.116}
+\contentsline {chapter}{\numberline {7}System Design and Evaluation Method}{47}{chapter.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Data Processing}{53}{section.118}
+\contentsline {section}{\numberline {7.1}Data Processing}{48}{section.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Training and Predict}{55}{section.126}
+\contentsline {section}{\numberline {7.2}Training and Predict}{50}{section.126}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Model Evaluation}{56}{section.127}
+\contentsline {section}{\numberline {7.3}Model Evaluation}{51}{section.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Simulation Data，Parameters and Testing Environment Evaluation Method}{59}{chapter.135}
+\contentsline {chapter}{\numberline {8}Simulation Data，Parameters and Testing Environment Evaluation Method}{54}{chapter.135}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Raw data for training}{59}{section.136}
+\contentsline {section}{\numberline {8.1}Raw data for training}{54}{section.136}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Detail Parameters of every training method}{60}{section.137}
+\contentsline {section}{\numberline {8.2}Detail Parameters of every training method}{55}{section.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Testing Environment}{61}{section.139}
+\contentsline {section}{\numberline {8.3}Testing Environment}{56}{section.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Model Accuracy Results}{64}{chapter.143}
+\contentsline {chapter}{\numberline {9}Model Accuracy Results}{59}{chapter.143}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Using 4 years historical data}{64}{section.144}
+\contentsline {section}{\numberline {9.1}Using 4 years historical data}{59}{section.144}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Using 3 years historical data}{68}{section.154}
+\contentsline {section}{\numberline {9.2}Using 3 years historical data}{63}{section.154}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Using 2 years historical data}{72}{section.164}
+\contentsline {section}{\numberline {9.3}Using 2 years historical data}{67}{section.164}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Speed Result}{76}{chapter.172}
+\contentsline {chapter}{\numberline {10}Speed Result}{71}{chapter.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Conclusion}{77}{chapter.173}
+\contentsline {chapter}{\numberline {11}Conclusion}{72}{chapter.173}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}A Section}{78}{section.174}
+\contentsline {section}{\numberline {11.1}A Section}{73}{section.174}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}A Subsection}{78}{subsection.175}
+\contentsline {subsection}{\numberline {11.1.1}A Subsection}{73}{subsection.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Another Section}{79}{section.176}
-\defcounter {refsection}{0}\relax 
-\vspace {2em}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Technique Indicators}{80}{appendix.177}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Moving Average (MA)\cite {kahn2006technical}}{80}{section.178}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{81}{subsection.179}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{81}{subsection.181}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{81}{section.184}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{82}{section.186}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{83}{section.188}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}All Reslult}{84}{appendix.190}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Using 4 year historical data}{84}{section.191}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Test slot 1 (from 2010-01-06 to 2015-01-06)}{84}{subsection.192}
+\contentsline {section}{\numberline {11.2}Another Section}{74}{section.176}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{86}{dummy.195}
+\contentsline {chapter}{\numberline {A}Technique Indicators}{75}{appendix.177}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Moving Average (MA)\cite {kahn2006technical}}{75}{section.178}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{76}{subsection.179}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{76}{subsection.181}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{76}{section.184}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{77}{section.186}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{78}{section.188}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}All Reslult}{79}{appendix.190}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Using 4 year historical data}{79}{section.191}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.1}Test slot 1 (from 2010-01-06 to 2015-01-06)}{79}{subsection.192}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{81}{dummy.195}
