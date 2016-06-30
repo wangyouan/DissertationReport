@@ -62,45 +62,59 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Testing result in time period 2014-01-07 to 2015-01-06\relax }}{60}{figure.caption.146}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Testing result of using 4 years historical data\relax }}{66}{figure.caption.157}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Testing result in time period 2014-01-07 to 2015-01-06 (continue)\relax }}{61}{figure.caption.147}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{66}{figure.caption.157}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{61}{figure.caption.147}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MSE}}}{66}{figure.caption.157}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{61}{figure.caption.147}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Testing result of using 4 years historical data (continue)\relax }}{67}{figure.caption.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Testing result in time period 2014-01-07 to 2015-01-06 (continue)\relax }}{62}{figure.caption.150}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{67}{figure.caption.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MAPE}}}{62}{figure.caption.150}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{67}{figure.caption.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{62}{figure.caption.150}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Testing result of using 3 year as test result\relax }}{68}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Testing result in time period 2013-01-07 to 2014-01-06\relax }}{64}{figure.caption.156}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{68}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Testing result in time period 2013-01-07 to 2014-01-06 (continue)\relax }}{65}{figure.caption.157}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ME}}}{68}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{65}{figure.caption.157}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Testing result of using 3 year as test result (continue)\relax }}{69}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{65}{figure.caption.157}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MSE}}}{69}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Testing result in time period 2013-01-07 to 2014-01-06 (continue)\relax }}{66}{figure.caption.160}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{69}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MAPE}}}{66}{figure.caption.160}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Testing result of using 2 years historical data\relax }}{70}{figure.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{66}{figure.caption.160}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{70}{figure.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Testing result in time period 2014-01-06 to 2015-01-06\relax }}{69}{figure.caption.166}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{70}{figure.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{69}{figure.caption.166}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Testing result of using 2 years historical data (continue)\relax }}{71}{figure.caption.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{69}{figure.caption.166}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{71}{figure.caption.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Testing result in time period 2014-01-06 to 2015-01-06 (continue)\relax }}{70}{figure.caption.169}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{71}{figure.caption.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{70}{figure.caption.169}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Testing result of using 1 year historical data\relax }}{72}{figure.caption.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{70}{figure.caption.169}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{72}{figure.caption.175}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{72}{figure.caption.175}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Testing result of using 1 year historical data (continue)\relax }}{73}{figure.caption.178}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{73}{figure.caption.178}
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{73}{figure.caption.178}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Extend result about stock price and CDC\relax }}{75}{figure.caption.189}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Extend result about stock price and MAPE\relax }}{75}{figure.caption.190}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -108,6 +122,6 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Comparison between EMA and SMA\cite {9_sma_ema}\relax }}{77}{figure.caption.183}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Comparison between EMA and SMA\cite {9_sma_ema}\relax }}{84}{figure.caption.204}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

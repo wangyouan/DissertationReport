@@ -1,2 +1,22 @@
 \chapter{Speed Result}
 \label{ch:speedResult}
+
+The testing environment are list in Section~\ref{sec:environment}, every method are trained 10 times. Target stock is 0001.HK. Using two years historical data to predict 1 year data. The final result is the average performance of these method is showed in table~\ref{tb:running_time}.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Algorithm}         & \textbf{2 workers(second)} & \textbf{1 worker(second)} & \textbf{Improved} \\ \hline
+		\textbf{ANN}               & 456.7                      & 769.6                     & 59.34\%           \\ \hline
+		\textbf{Linear Regression} & 53.1                       & 62.3                      & 85.23\%           \\ \hline
+		\textbf{Random Forest}     & 279.9                      & 385.9                     & 72.53\%           \\ \hline
+	\end{tabular}
+	\caption{Running Time of every method}
+	\label{tb:running_time}
+\end{table}
+
+As the simplest method, Linear Regression is obviously the fastest method.\\
+
+
+On the other hands ANN shows great potential in distributed computing. The calculation of ANN in the process of feed forward and back propagation involves a number of matrix operations, which makes ANN the best algorithm for parallelized computing.

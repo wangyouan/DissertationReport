@@ -114,46 +114,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}Testing Environment}{56}{section.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Model Accuracy Results}{59}{chapter.143}
+\contentsline {chapter}{\numberline {9}Model Accuracy Result for given 1 Year (2014)}{59}{chapter.143}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Using 4 years historical data}{59}{section.144}
+\contentsline {section}{\numberline {9.1}Using 4 years historical data}{60}{section.145}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Using 3 years historical data}{63}{section.154}
+\contentsline {section}{\numberline {9.2}Using 3 years historical data}{61}{section.148}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Using 2 years historical data}{67}{section.164}
+\contentsline {section}{\numberline {9.3}Using 2 years historical data}{62}{section.151}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Speed Result}{71}{chapter.172}
+\contentsline {section}{\numberline {9.4}Using 1 year historical data}{64}{section.154}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Conclusion}{72}{chapter.173}
+\contentsline {section}{\numberline {9.5}Summary}{65}{section.181}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}A Section}{73}{section.174}
+\contentsline {chapter}{\numberline {10}Further Discuss on prediction method}{74}{chapter.187}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}A Subsection}{73}{subsection.175}
+\contentsline {section}{\numberline {10.1}Does Stock Price have effects on stock prediction results?}{74}{section.188}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Another Section}{74}{section.176}
+\contentsline {section}{\numberline {10.2}Stock Performance on Specific Stocks with different time period}{76}{section.191}
 \defcounter {refsection}{0}\relax 
-\vspace {2em}
+\contentsline {chapter}{\numberline {11}Speed Result}{78}{chapter.192}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Technique Indicators}{75}{appendix.177}
+\contentsline {chapter}{\numberline {12}Conclusion}{79}{chapter.194}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Moving Average (MA)\cite {kahn2006technical}}{75}{section.178}
+\contentsline {section}{\numberline {12.1}A Section}{80}{section.195}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{76}{subsection.179}
+\contentsline {subsection}{\numberline {12.1.1}A Subsection}{80}{subsection.196}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{76}{subsection.181}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{76}{section.184}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{77}{section.186}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{78}{section.188}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}All Reslult}{79}{appendix.190}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Using 4 year historical data}{79}{section.191}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Test slot 1 (from 2010-01-06 to 2015-01-06)}{79}{subsection.192}
+\contentsline {section}{\numberline {12.2}Another Section}{81}{section.197}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{81}{dummy.195}
+\contentsline {chapter}{\numberline {A}Technique Indicators}{82}{appendix.198}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Moving Average (MA)\cite {kahn2006technical}}{82}{section.199}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{83}{subsection.200}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{83}{subsection.202}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{83}{section.205}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{84}{section.207}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{85}{section.209}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}All Reslult}{86}{appendix.211}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Using 4 year historical data}{86}{section.212}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.1}Test slot 1 (from 2010-01-06 to 2015-01-06)}{86}{subsection.213}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Stock Symbol List}{87}{section.216}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{88}{dummy.218}
