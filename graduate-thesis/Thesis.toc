@@ -12,11 +12,11 @@
 \defcounter {refsection}{0}\relax 
 \vspace {1em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{viii}{dummy.5}
+\contentsline {chapter}{List of Figures}{x}{dummy.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{x}{dummy.7}
+\contentsline {chapter}{List of Tables}{xii}{dummy.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbreviations}{xi}{dummy.9}
+\contentsline {chapter}{Abbreviations}{xiv}{dummy.9}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
@@ -162,10 +162,192 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B.1}Using 4 year historical data}{86}{section.212}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}Test slot 1 (from 2010-01-06 to 2015-01-06)}{86}{subsection.213}
+\contentsline {section}{\numberline {B.2}Using 3 year historical data}{89}{section.219}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Stock Symbol List}{87}{section.216}
+\contentsline {section}{\numberline {B.3}Using 2 year historical data}{92}{section.226}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}Using 1 year historical data}{95}{section.233}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Introduction of company related in this dissertation}{98}{appendix.240}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.1}Greater China Financial Holdings Ltd.}{98}{section.241}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{99}{section*.242}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}Huajun Holdings Ltd.}{99}{section.243}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{99}{section*.244}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.3}Kingwell Group Ltd.}{99}{section.245}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{100}{section*.246}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.4}Glorious Property Holdings Ltd.}{100}{section.247}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{100}{section*.248}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.5}Kingmaker Footwear Holdings Ltd.}{100}{section.249}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{101}{section*.250}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.6}HKT Trust and HKT Ltd. - SS}{101}{section.251}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{101}{section*.252}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.7}MTR Corporation Ltd.}{102}{section.253}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{103}{section*.254}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.8}Hopewell Holdings Ltd.}{103}{section.255}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{103}{section*.256}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.9}Hang Seng Bank Ltd.}{104}{section.257}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{104}{section*.258}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.10}Henderson Land Development Co. Ltd.}{104}{section.259}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{105}{section*.260}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.11}Hysan Development Co. Ltd.}{105}{section.261}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{105}{section*.262}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.12}Vantage International (Holdings) Ltd.}{105}{section.263}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{106}{section*.264}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.13}Sun Hung Kai Properties Ltd.}{106}{section.265}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{106}{section*.266}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.14}New World Development Co. Ltd.}{107}{section.267}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{107}{section*.268}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.15}Oriental Press Group Ltd.}{107}{section.269}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{107}{section*.270}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.16}Swire Pacific Ltd. 'A'}{108}{section.271}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{108}{section*.272}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.17}Wheelock and Co. Ltd.}{108}{section.273}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{109}{section*.274}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.18}Great China Properties Holdings Ltd.}{109}{section.275}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{109}{section*.276}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.19}Mexan Ltd.}{109}{section.277}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{110}{section*.278}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.20}Bank of East Asia, Ltd., The}{110}{section.279}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{110}{section*.280}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.21}Burwill Holdings Ltd.}{111}{section.281}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{111}{section*.282}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.22}Chevalier International Holdings Ltd.}{112}{section.283}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{112}{section*.284}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.23}China Motor Bus Co., Ltd.}{112}{section.285}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{112}{section*.286}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.24}Galaxy Entertainment Group Ltd.}{113}{section.287}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{113}{section*.288}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.25}Tian An China Investments Co. Ltd.}{113}{section.289}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{113}{section*.290}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.26}Dynamic Holdings Ltd.}{114}{section.291}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{114}{section*.292}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.27}Ban Loong Holdings Ltd.}{114}{section.293}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{114}{section*.294}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.28}China Aerospace International Holdings Ltd.}{115}{section.295}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{115}{section*.296}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.29}Cross-Harbour (Holdings) Ltd., The}{115}{section.297}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{115}{section*.298}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.30}Tencent Holdings Ltd.}{116}{section.299}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{116}{section*.300}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.31}Kowloon Development Co. Ltd.}{116}{section.301}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{116}{section*.302}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.32}Far East Consortium International Ltd.}{117}{section.303}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{117}{section*.304}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.33}Lee Hing Development Ltd.}{117}{section.305}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{117}{section*.306}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.34}First Tractor Co Ltd. - H Shares}{118}{section.307}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{118}{section*.308}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.35}China Beidahuang Industry Group Holdings Ltd.}{118}{section.309}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{119}{section*.310}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.36}Gold Peak Industries (Holdings) Ltd.}{119}{section.311}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{119}{section*.312}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.37}CK Hutchison Holdings Ltd.}{120}{section.313}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{120}{section*.314}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.38}CLP Holdings Ltd.}{120}{section.315}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{120}{section*.316}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.39}Hong Kong and China Gas Co. Ltd., The}{121}{section.317}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{121}{section*.318}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.40}Wharf (Holdings) Ltd., The}{121}{section.319}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{121}{section*.320}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.41}HSBC Holdings plc}{122}{section.321}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{122}{section*.322}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.42}Power Assets Holdings Ltd.}{123}{section.323}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{123}{section*.324}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.43}Hoifu Energy Group Ltd.}{124}{section.325}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{124}{section*.326}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.44}PCCW Ltd.}{125}{section.327}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Summary}{125}{section*.328}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.45}Nine Express Ltd.}{126}{section.329}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{88}{dummy.218}
+\contentsline {chapter}{Bibliography}{127}{dummy.330}

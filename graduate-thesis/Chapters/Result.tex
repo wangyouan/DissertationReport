@@ -21,6 +21,7 @@ In this chapter, all result are about predict one year stock price, the average 
 \end{table}
 
 \section{Using 4 years historical data}
+\label{sec:4predict}
 
 Training data is sampled from 2010-01-06 to 2014-01-05, 986 transaction days in total.\\
 
@@ -66,7 +67,7 @@ For combination method, random forest algorithm is also the best model to predic
 
 
 \section{Using 3 years historical data}
-
+\label{sec:3predict}
 Training data is sampled from 2011-01-06 to 2014-01-05, 736 transaction days in total.\\
 
 
@@ -109,7 +110,7 @@ Composed learning model performed better in CDC test (in table~\ref{tb:averageCD
 Random Forest alone and Linear + Logsitic Regression model turns out to be an unreliable choice to predict stock price in this test for some stock (like 0009.HK and 0007.HK). However, almost every method reach its worst performance when handle this two stocks, which on the other way shows that those model are not suitable for stock with average price less than.
 
 \section{Using 2 years historical data}
-
+\label{sec:2predict}
 Training data is sampled from 2012-01-06 to 2014-01-05, 490 transaction days in total.\\
 
 Comparison of different measurements is in figure~\ref{fg:2yearpredict1} and \ref{fg:2yearpredict2}. Average CDC and MAPE information can be found in table~\ref{tb:averageCDC3} and \ref{tb:averageMAPE3} respectively.
@@ -152,7 +153,7 @@ The worst stock performance in there 0009.HK and 0007.HK, none of the prediction
 
 
 \section{Using 1 year historical data}
-
+\label{sec:1predict}
 Training data is sampled from 2013-01-06 to 2014-01-05, 490 transaction days in total.\\
 
 Comparison of different measurements is in figure~\ref{fg:1yearpredict1} and \ref{fg:1yearpredict2}. Average CDC and MAPE information can be found in table~\ref{tb:averageCDC4} and \ref{tb:averageMAPE4} respectively.
