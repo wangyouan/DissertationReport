@@ -32,7 +32,7 @@ Starting in 1969, Heng Seng Index, or HSI, is the most widely quoted gauge of th
 
 \section{Data Selection}
 
-My object is to predict the stock price, the following data are selected and would be used as input data to do further process. 
+Input data consists of historical stock price, technical indicators and some other parameters. Details about those input data are showed in the following section.
 
 \subsection{Historical Price}
 Based on the efficiency theory, past information affects stock price movements. In this experiment, I choose last transaction date price to be input, and use some other indicators to represent the stock change direction and other historical information.
@@ -47,6 +47,8 @@ Based on \cite{lauretto2013evaluation} the following indicators are used, calcul
 	\item Moving average convergence divergence (MACD) with short term moving average of 12 days and long term moving average of 26 days and with short term moving average of 7 days and long term moving average of 14 days
 	\item Relative strength index (RSI) of 9, 14 and 21 days.
 \end{itemize}
+
+The details of these indicators can be found in Appendix~\ref{append:technical_indicator}
 
 \subsection{Hang Seng Interbank Offered Rate (HIBOR)}
 HIBOR is the annualized rate charged for interbank lending on HKD denominated instruments\cite{chen2010principal}. If HIBOR goes higher, then investors tend to leave stock market. As a result, stock price will decrease. HIBOR rate varies from overnight to one year. \\

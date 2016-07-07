@@ -12,8 +12,10 @@
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 \usepackage{subfigure}
 \usepackage{amsmath}
+\usepackage[ddmmyyyy]{datetime}
 \usepackage[style=numeric-comp, backend=bibtex]{biblatex}
 \bibliography{Bibliography}
+\renewcommand{\dateseparator}{/}
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 
 %% ----------------------------------------------------------------
@@ -51,7 +53,7 @@
 	Wang Youan\\
 	3035237236\par
 	Supervisor's title and name: Dr.~Yip Chi Lap\\
-	Date of submission: dd/mm/yyyy
+	Date of submission: \today
 \end{titlepage}
 %% ----------------------------------------------------------------
 
@@ -118,8 +120,10 @@ Psalm 25:2
 \abstract{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-This study is to apply and compare different data mining and machine learning methods to predict stock price.
+This study is to apply and compare different data mining and machine learning methods to predict the price of stock in Hong Kong Stock Exchange Market. This report describes the algorithm and usage of ANN, SVM, linear regression, logistic regression and random forest. It is found that ANN and linear regression are the most powerful learning method to predict stock price, while SVM and logistic is the best algorithm to predict stock changing direction.
 }\\
+
+
 \smallskip
 {\bf Keywords:} Artificial Neural Network, Apache Spark, Distributed Computing, Technical Indicators, Fundamental Analysis, Data Mining, Machine Learning
 \clearpage  % Abstract ended, start a new page
