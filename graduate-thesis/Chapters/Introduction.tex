@@ -4,16 +4,14 @@
 
 It is human beings' common goal to make life easier and more comfortable. Wealth can bring help to achieve this goal, and investment on stock can help people to gain wealth quickly. As a result, many research works have been done on market analysis.\par 
 
-However, as a very complex (non-linear) and volatile system with many factors (such as companies' performance, domestic economies, festivals, seasons, etc.)\cite{chen1986economic}, stock market is difficult to be precisely predicted. Which makes investors and researchers headache, those factors usually have relationship with each other, and they will keep changing all the time. Hence, investors and fund manager must maintain real-time monitoring of market behavior and take right factors into consideration, so as to make the right trading decision.\par
+However, as a very complex (non-linear) and volatile system with many factors (such as companies' performance, domestic economies, festivals, seasons, etc.), stock market is difficult to be precisely predicted. Which makes investors and researchers headache, those factors usually have relationship with each other, and they will keep changing all the time. Hence, investors and fund manager must maintain real-time monitoring of market behavior and take right factors into consideration, so as to make the right trading decision.\par
 
 Is stock price movement really predictable? How to measure the predict performance of given method? As those indicators of market keep changing every time, how can we keep tracking of them timely for many stocks? As calculating so many parameters is really demanding, but those high performance server is very expensive, can we utilize distributed computing to calculate those? With the development of machine learning, computer now can learn some human knowledge (like Alpha Go versus Lee Sedol), can them learn to predict stock price?
 
 \section{Objectives}
 
-This study is to answer the above problems. Target market is Hong Kong Stock Exchange Market. Objects is to find a good method to predict HSI stock price changes through testing on different machine learning algorithms (includes Linear Regression, Neural Network, Random Forest). Apart from using single learning methods, this study also tries to combine two machine learning methods to do that predict, which use one to forecast how much a stock price changes and another to predict what direction the stock price will change (up or down). \\
+This study is to answer the above problems. Target market is Hong Kong Stock Exchange Market. Objects is to find a good method to predict HSI stock price changes through testing on different machine learning algorithms (includes Linear Regression, Neural Network, Random Forest) over distributed environment. Apart from using single learning methods, this study also tries to combine two machine learning methods to do that predict, which use one to forecast how much a stock price changes and another to predict what direction the stock price will change (up or down). 
 
-
-Besides, as this system is build up on cluster computing framework, it is also important to find out the best data mining methods over distributed environment
 
 \section{The Dataset}
 Most of historical stock information are collected from Yahoo Finance (http://finance.yahoo.com), HIBOR are downloaded from the Hong Kong Association of Banks (HKAB) website, its url is http://www.hkab.org.hk/. Other data are collected through Quandl (https://www.quandl.com/)
@@ -23,6 +21,7 @@ Most of historical stock information are collected from Yahoo Finance (http://fi
 The purpose of this thesis is to find a stock price prediction system that can be applied as an assistant tool for investors in HKEX. Thus, the core research problem is which algorithm can make the best prediction. Several performance criteria (e.g. MSE, MAPE, details can be found in Appendix A) are used to measure these learning method.\\
 
 
+Besides, as this system is build up on cluster computing framework, it is also important to find out the best data mining methods over distributed environment. This study evaluates different algorithm form the aspect of speed and scalability.
 
 
 \section{Structure}

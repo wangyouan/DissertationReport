@@ -1,29 +1,32 @@
 \chapter{Distributed Computing}
 \label{ch:spark}
 
-Distributed computing plays a great role in this study, which is the platform for model training and stock prediction. Before the start of illustrations of those data mining algorithms, let’s talk about the distributed technology used here.\\
+Distributed computing plays a great role in this study, which is the platform for model training and stock prediction. Before starting illustrating those data mining algorithms, let’s talk about the distributed platform those method based on first.\\
 
 
 In section~\ref{sec:dm_dc} reviews two popular cluster computing frameworks, MapReduce and Spark. This Chapter first simply introduces the details of these two frameworks, then makes a comparison between them and reaches to the reason why this study chooses Spark. After that, this chapter also introduces the core technology and machine learning library of Spark.
 
 
-\section{Hadoop}
-MapReduce can represent two different things: the programming model and the specific implementation of framework based one that model.\cite{sammer2012hadoop} This chapter focuses more on the former and uses Hadoop MapReduce to refer the later meaning.\\
+\section{MapReduce}
+MapReduce can represent two different things: the programming model and the specific implementation of framework based one that model.\cite[p.~25]{sammer2012hadoop} This chapter focuses more on the former and uses Hadoop MapReduce to refer the later meaning.\\
 
-The first idea of MapReduce was defined in a paper written by two Google engineers in 2004, titled “MapReduce: Simplified Data Processing on Large Clusters”\cite{sammer2012hadoop}. Developers are only need to write \emph{map} and \emph{reduce} functions, and can leave all the other things, like parallelization, distribution and fault-tolerance of work, to the framework.
+The first idea of MapReduce was defined in a paper written by two Google engineers in 2004, titled “MapReduce: Simplified Data Processing on Large Clusters”\cite[p.~25]{sammer2012hadoop}. Developers are only need to write \emph{map} and \emph{reduce} functions, and can leave all the other things, like parallelization, distribution and fault-tolerance of work, to the framework.
 
 
 \section{Spark}
 
-Apache Spark is another popular open source cluster computing framework with the features of fast, easy to use and wide supported. Originated at the UC Berkeley AMPLab in 2009 and later contributed to the Apache Software Foundation in 2010, Spark are designed to support wider class of applications than MapReduce, while retaining its properties like fault tolerance, data locality and scalability \cite{ryza2015advanced}.\\
+Apache Spark is another popular open source cluster computing framework with the features of fast, easy to use and wide supported. Originated at the UC Berkeley AMPLab in 2009 and later contributed to the Apache Software Foundation in 2010, Spark are designed to support wider class of applications than MapReduce, while retaining its properties like fault tolerance, data locality and scalability \cite{meng2016mllib}.\\
 
 
-Spark is a flexible operational framework, Spark Streaming is designed for data stream processing, Spark SQL is good at interactive analysis, MLLib is a good machine learning applications, so Spark can become a versatile big data computing platform\cite{apache_spark}. Spark allows users to load data to the cluster memory, and do repeated operation on these data many times, which makes it very suitable for machine learning.
+Spark is a flexible operational framework, which ``powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and Spark Streaming''\cite{apache_spark}. Developers can combine these libraries with Spark seamlessly.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{spark-stack}
 	\caption{Spark Stack}
 \end{figure}
+
+
+Spark optimizes for iterative computations, which allows users to load data to the cluster memory, and do repeated operation on these data many times, which makes it very suitable for machine learning\cite{meng2016mllib}.
 
 \section{Comparison between MapReduce and Spark}
 The simplicity of MapReduce is attractive for developers but this framework has some limitations. MapReduce is designed to batch jobs which makes it not good at iterative computations that need to run the same mapper and reducer multiple times, with output from the reducer as input to mapper of the next stage (like machine learning application)\cite{shi2015clash}. Let's use Hadoop MapReduce, a widely used implementation to describes this shortcomings. As shown in Figure~\ref{fg:hadoop}, while Hadoop MapReduce is processing computing, it need to store intermediate data into HDFS, which causes extensive data movement and duplication across the network and file system. As a result, HDFS I/O is often the bottleneck of this system.
@@ -67,8 +70,8 @@ The result in contest also prove this theory. In the Daytona GraySort contest fo
 \end{table}
 
 
-\section{Core Technology in Spark\cite{ryza2015advanced}}
-Resilient distributed datasets, or RDD, designed based on Matei \cite{zaharia2012resilient}, is one of the core technology in Spark frame. RDD can be regard as a table in database, which can hold any type of data. Spark save data to different partitions RDD.\\
+\section{Core Technology in Spark}
+Resilient distributed datasets, or RDD, designed based on Matei\cite{zaharia2012resilient}, is one of the core technology in Spark frame. RDD can be regard as a table in database, which can hold any type of data. Spark save data to different partitions RDD.\\
 
 
 Every RDD can contain many partitions, a partition is a part of dataset. RDD can rely on each other. The case that each partition of the parent RDD is used by at most one partition of the child RDD is called narrow dependency, data shuffling is unnecessary in this type of operation; while multiple child partitions may depend on one parent partition is called wide dependencies, this type of operations involves data shuffling.
@@ -82,10 +85,10 @@ Every RDD can contain many partitions, a partition is a part of dataset. RDD can
 		\centering
 		\includegraphics[width=.3\linewidth]{widedependences}
 	}
-	\caption{Two types of Spark Dependency\cite{zaharia2016architecture}}
-\end{figure} 
+	\caption{Two types of Spark Dependency\cite[p.~8]{zaharia2012resilient}}
+\end{figure}
 
-There are two reasons that why Spark make narrow dependencies out of wide one\cite{zaharia2016architecture},
+There are two reasons that why Spark make narrow dependencies out of wide one\cite[Chapter~5]{zaharia2012resilient},
 \begin{enumerate}
 	\item Narrow allow for pipelined execution on one cluster node, while wide dependencies must wait for all the parent partitions available.
 	\item Fault recover is much easier for narrow dependencies, as it just need to re-compute the lost partitions, and this operation can be done in different nodes. On the other hand, wide dependencies involves many parent partitions.
@@ -94,35 +97,37 @@ There are two reasons that why Spark make narrow dependencies out of wide one\ci
 RDDs are immutable, the returns of every operation on RDD is a new RDD. RDD support two types of operations,
 
 \begin{enumerate}
-	\item Transformation: each transformation takes (one or more) RDDs, and outputs the transformed RDD (another RDD) by applying some function to the contents (e.g., map, filter, groupBy). All transformations in Spark are lazy, only computed when an action requires a result to be returned to the driver program.
-	\item Action: Return a value to the driver program after running a computation on the dataset (e.g., reduce, reduceByKey,). An action is used to either save result to some location (HDFS) or to display it via the driver program.
+	\item Transformation\cite[Section~2.2]{zaharia2012resilient}: each transformation takes (one or more) RDDs, and outputs the transformed RDD (another RDD) by applying some function to the contents (e.g., map, filter, groupBy). All transformations in Spark are lazy, only computed when an action requires a result to be returned to the driver program.
+	\item Action\cite[Section~2.3]{zaharia2012resilient}: Return a value to the driver program after running a computation on the dataset (e.g., reduce, reduceByKey, etc.). An action is used to either save result to some location (HDFS) or to display it via the driver program.
 \end{enumerate}
 
 To solve the problems about fault tolerance, RDD support two type of operation
 
 \begin{enumerate}
-	\item An automatic way, the RDDs log lineage (the sequence of transformations used to produce the current RDD) information. And when data lost happened, spark would recursively go back to the very root, or the previous checkpoint, and then re-compute the lost data.
-	\item User can manually set checkpoint, at which Spark would truncated lineages and store data in reliably location, like HDFS.
+	\item An automatic way, the RDDs log lineage (the sequence of transformations used to produce the current RDD) information\cite[Section~2.5]{zaharia2012resilient}. And when data lost happened, spark would recursively go back to the very root, or the previous checkpoint, and then re-compute the lost data.
+	\item User can manually set checkpoint, at which Spark would truncated lineages and store data in reliably location, like HDFS\cite[Section~5.3]{zaharia2012resilient}.
 \end{enumerate}
 
-\section{Spark Machine Learning Library (MLlib)\cite{apache_spark_mllib}}
-Apart from the above benefits, MLlib is another reason that why we choose spark. MLlib is the extensible machine learning  library of Spark, which composes of general learning algorithm and utilities, includes classification, regression, clustering, collaborative filtering, dimension reduction and tuning section.\\
+\section{Spark Machine Learning Library (MLlib)}
+Apart from the above benefits, MLlib is another reason that why we choose spark. MLlib is the extensible machine learning  library of Spark, which composes of general learning algorithm and utilities, includes classification, regression, clustering, collaborative filtering, dimension reduction and tuning section\cite{meng2016mllib}.\\
+
+
+As native supported by Apache Spark, MLlib has the following benefits\cite{meng2016mllib}: First, since Apache Spark is designed for iterative applications, MLlib directly gains benefits through the improvements of Spark's low-level components. Second, the widely accepted by open-source community of Spark has also led to rapid growth and adoption of MLlib. Third, MLlib has great performances advantages over Mahout, another popular distributed machine learning library. Experiments in \cite{1_li_jiang_zhang_boesch_xiao_2015} shows that MLlib is about 7\~9 times faster than Mahout in FP-growth mining problem.\\
 
 
 Spark MLlib was divided into two libraries, mllib and ml from version 1.2. mllib contains the original API built on top of RDDs while ml provides higher-level API built on top of DataFrames for constructing ML pipelines.\\
 
 
-
-Ml is more recommended by the official document, but mllib is still being supported. This dissertation is based on mllib, as mllib is much easier for me.
+Ml is more recommended by the official document, but mllib is still being supported. This dissertation is based on mllib, as mllib is much easier for me to obtain.
 
 
 \section{Summary}
-Apache Spark is an open source framework optimized for iterative programs, like machine learning. This is the first reason why choose Spark in this study.\\
+Apache Spark is an open source framework optimized for iterative programs, like machine learning. That is why this study chooses Spark instead of MapReduce.\\
 
 
 The core technology of Spark is RDD, an immutable distributed data structure, which support two types of operation, transformation and action. RDD can be saved any type of storage, but usually is cached in memory. Spark utilize lazy evaluation which makes it harder to know which parts of your program are the bottleneck.\\
 
 
-Spark has a machine learning library called mllib.
+This study chooses MLlib because of its ease of use and tight integration with Spark.
 
 

@@ -1,6 +1,33 @@
 \chapter{Supervised Learning Method}
 \label{ch:machine}
 
+Last Chapter talks about 
+
+\section{Remove invalid or missing data}
+As a real-world applications of data mining, there are some invalid or missing data in the original data collection. This system should automatically remove invalid data from the raw data and replace missing values with rational information. The rule to handle data is as follows,
+
+\begin{itemize}
+	\item Data on holiday. One example is in figure~\ref{fg:invalid_data}, Jan 1, 2016 is New Year Day, and Dec 25, 2015 is Christmas day. There are no transactions on these two days, but in Yahoo Finance, holidays like there are still listed there. Information about Hong Kong holidays are collected from http://www.timeanddate.com/, and after downloading data from Yahoo Finance, the system would automatically remove these holiday transaction data.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\textwidth]{invalid-data}
+		\caption{Example for invalid data}
+		\label{fg:invalid_data}
+	\end{figure}
+	\item Missing data. Like figure~\ref{fg:missing_data}, the overnight and 1-week rate is inaccessible on that day. In this case, the system would automatically use valid previous information to instead this value.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{missingdata}
+		\caption{Example for missing data}
+		\label{fg:missing_data}
+	\end{figure}
+	\item Time difference. This is a big issue when the system queries some data based on different time zone from Hong Kong Time (HKT, GMT+8), e.g. New York time (GMT -4), which is 12 hours behind HKT. Obviously, at the beginning of each transaction day in Hong Kong, it is impossible to get the same day information in NY. Thus, the date of data at NYT should be one day prior to that in HKT.
+\end{itemize}
+
+
+The above are data cleaning rules in this system, and after the above processing, clean data would do the following step, normalization.
+
+
 This chapter introduces the learning method used in this dissertation, includes random forest, linear regression, artificial neural network (ANN), supported vector machine (SVM) and logistic regression. Except ANN, other learning method are the native library of Spark MLlib.\\
 
 
