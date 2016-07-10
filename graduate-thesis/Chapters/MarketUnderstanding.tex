@@ -22,7 +22,7 @@ From the above figures, we can find that HKEX is an active exchange market and i
 
 As a developed market, the efficiency of HKEX has already been proved \cite{su2015efficiency}. This give our study a great convenient.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{lastyearhsi}
 	\caption{Comparison of HSI and other indexes}
@@ -39,7 +39,7 @@ Based on the efficiency theory, past information affects stock price movements. 
 
 \subsection{Technical Indicator}
 
-Based on \cite{lauretto2013evaluation} the following indicators are used, calculated through ta-lib package (http://ta-lib.org/):
+Based on \cite{lauretto2013evaluation} the following indicators are used, calculated through ta-lib package\footnote{This system uses python wrapper for TA-Lib, which can be found in https://github.com/mrjbq7/ta-lib}:
 \begin{itemize}
 	\item Simple moving average (SMA) of 3, 13 and 21 days
 	\item Exponential moving average (EMA) of 5, 13 and 21 days
@@ -52,8 +52,6 @@ The details of these indicators can be found in Appendix~\ref{append:technical_i
 
 \subsection{Hang Seng Interbank Offered Rate (HIBOR)}
 HIBOR is the annualized rate charged for interbank lending on HKD denominated instruments\cite{chen2010principal}. If HIBOR goes higher, then investors tend to leave stock market. As a result, stock price will decrease. HIBOR rate varies from overnight to one year. \\
-
-
 
 In this experiment, one-week, one-month, half-year and one-year HIBOR are used. 
 
@@ -71,5 +69,5 @@ Foreign exchange rate is the value of one country’s currency in terms of anoth
 
 In this experiment, rates from CNY, USE, EUR to HKD are used.
 
-\subsection{other data}
+\subsection{Other data}
 Daily level HSI and SSE data are also used. Besides, some ETF (includes iShares China Large-Cap, which composed of large-capitalization Chinese equities that trade on the Hong Kong Stock Exchange) prices are also taken into consideration.
