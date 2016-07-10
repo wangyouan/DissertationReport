@@ -4,14 +4,14 @@
 This chapter introduces the data processing method used in this study, mainly about data preparing (including clean and transformation), reduction (PCA) and learning algorithm.
 
 \section{Data Preprocessing}
-
 The section describes two preprocessing methods before we start to mining knowledge from input. The first is data clean rules used in this study, the second is data normalization.
 
 \subsection{Data Clean}
+\label{sec:dataClean}
 As a real-world applications of data mining, there are some invalid or missing data in the original data collection. In this study, the collected raw data also contains some kind of error data, which would affect the prediction performance. Examples of such data and the processing method is shown in below,
 
 \begin{itemize}
-	\item Data on holiday. One example is in figure~\ref{fg:invalid_data}, Jan 1, 2016 is New Year Day, and Dec 25, 2015 is Christmas day. There are no transactions on these two days, but in Yahoo Finance, holidays like there are still listed there. Information about Hong Kong holidays are collected from http://www.timeanddate.com/, and after downloading data from Yahoo Finance, the system would automatically remove these holiday transaction data.
+	\item Data on holiday. One example is in figure~\ref{fg:invalid_data}, Jan 1, 2016 is New Year Day, and Dec 25, 2015 is Christmas day. There are no transactions on these two days, but in Yahoo Finance, holidays like there are still listed there. Information about Hong Kong holidays are collected from \url{http://www.timeanddate.com/}, and after downloading data from Yahoo Finance, the system would automatically remove these holiday transaction data.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{invalid-data}

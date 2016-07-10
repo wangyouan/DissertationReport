@@ -1,17 +1,54 @@
-\chapter{Training Model}
+\chapter{Simulation data and Test Environment}
+\label{ch:dataAndEnv}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at pulvinar nisi. Phasellus hendrerit, diam placerat interdum iaculis, mauris justo cursus risus, in viverra purus eros at ligula. Ut metus justo, consequat a tristique posuere, laoreet nec nibh. Etiam et scelerisque mauris. Phasellus vel massa magna. Ut non neque id tortor pharetra bibendum vitae sit amet nisi. Duis nec quam quam, sed euismod justo. Pellentesque eu tellus vitae ante tempus malesuada. Nunc accumsan, quam in congue consequat, lectus lectus dapibus erat, id aliquet urna neque at massa. Nulla facilisi. Morbi ullamcorper eleifend posuere. Donec libero leo, faucibus nec bibendum at, mattis et urna. Proin consectetur, nunc ut imperdiet lobortis, magna neque tincidunt lectus, id iaculis nisi justo id nibh. Pellentesque vel sem in erat vulputate faucibus molestie ut lorem.
+This chapter introduces the input data and test environments.
 
-\section{A Section}
+\section{Raw data for training}
+Details of selected data is introduced in Chapter~\ref{ch:market}, the date range is varied in different test, but is behind year 2009 as some data prior to the start date is hard to be collected. \\
 
-Quisque tristique urna in lorem laoreet at laoreet quam congue. Donec dolor turpis, blandit non imperdiet aliquet, blandit et felis. In lorem nisi, pretium sit amet vestibulum sed, tempus et sem. Proin non ante turpis. Nulla imperdiet fringilla convallis. Vivamus vel bibendum nisl. Pellentesque justo lectus, molestie vel luctus sed, lobortis in libero. Nulla facilisi. Aliquam erat volutpat. Suspendisse vitae nunc nunc. Sed aliquet est suscipit sapien rhoncus non adipiscing nibh consequat. Aliquam metus urna, faucibus eu vulputate non, luctus eu justo.
+The input data types are introduced in Chapter~\ref{ch:market}.\\
 
-\subsection{A Subsection}
+The stocks chosen in this experiment are just the first 10 in HKEx (0001.HK to 0010.HK). \\
 
-Donec urna leo, vulputate vitae porta eu, vehicula blandit libero. Phasellus eget massa et leo condimentum mollis. Nullam molestie, justo at pellentesque vulputate, sapien velit ornare diam, nec gravida lacus augue non diam. Integer mattis lacus id libero ultrices sit amet mollis neque molestie. Integer ut leo eget mi volutpat congue. Vivamus sodales, turpis id venenatis placerat, tellus purus adipiscing magna, eu aliquam nibh dolor id nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed cursus convallis quam nec vehicula. Sed vulputate neque eget odio fringilla ac sodales urna feugiat.
+Three of the above companies are top 50 in market capitalization (0001.HK, 0004.HK and 0002.HK). Two of them are top 20 active stocks in dollars (0001.HK and 0005.HK). One in finance (0005.HK), 3 in Utilities (0002.HK, 0003.HK and 0006.HK), two properties (0001.HK and 0004.HK).\\
 
-\section{Another Section}
+To further prove my conclusion, more stock (Symbols are 0066.HK, 6823.HK, 0014.HK, 0016.HK, 0012.HK, 0038.HK, 0032.HK, 0023.HK, 0030.HK, 0027.HK, 2282.HK, 0120.HK) are tested. All information of those stocks can be found in Appendix~\ref{append:stock_info}.\\
 
-Phasellus nisi quam, volutpat non ullamcorper eget, congue fringilla leo. Cras et erat et nibh placerat commodo id ornare est. Nulla facilisi. Aenean pulvinar scelerisque eros eget interdum. Nunc pulvinar magna ut felis varius in hendrerit dolor accumsan. Nunc pellentesque magna quis magna bibendum non laoreet erat tincidunt. Nulla facilisi.
 
-Duis eget massa sem, gravida interdum ipsum. Nulla nunc nisl, hendrerit sit amet commodo vel, varius id tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dolor est. Suspendisse ultrices tincidunt metus eget accumsan. Nullam facilisis, justo vitae convallis sollicitudin, eros augue malesuada metus, nec sagittis diam nibh ut sapien. Duis blandit lectus vitae lorem aliquam nec euismod nisi volutpat. Vestibulum ornare dictum tortor, at faucibus justo tempor non. Nulla facilisi. Cras non massa nunc, eget euismod purus. Nunc metus ipsum, euismod a consectetur vel, hendrerit nec nunc.
+\section{Testing Environment}
+\label{sec:environment}
+The model of physical computer is Dell Inspiron Ins14VD-4516, details about the hardware information is showed in table~\ref{tb:hardwareConf}, software are listed in table~\ref{tb:softwareList}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Name} & \textbf{Details} \\ \hline
+		CPU & Intel Core i5 4200U \\ \hline
+		Memory & DDR3L 1600MHz 8GB(4GBx2) \\ \hline
+		Hard disk & 500GB 5400 rpm \\ \hline
+	\end{tabular}
+	\caption{Hardware information}
+	\label{tb:hardwareConf}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Name} & \textbf{Details} \\ \hline
+		OS & Ubuntu (Host version: 16.04, Guest version: 14.04) \\ \hline
+		Virtualbox & Version 5.0.20 r106931 \\ \hline
+		Python & 2.7.6 \\ \hline
+		Apache Spark & 1.6.1 \\ \hline
+		Hadoop & 2.6.0 \\ \hline
+	\end{tabular}r
+	\caption{Primary Software information}
+	\label{tb:softwareList}
+\end{table}
+The cluster is formed by three virtual machines (as figure~\ref{fg:clustur}). "Master" is NameNode for HDFS, and Master, HistoryServer for Spark. The other two virtual machines work as DataNode (for HDFS) and worker (for Spark). Every computer has 40GB hard disk, 2GB memory and 1 virtual CPU core.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{ClusterStructure}
+	\caption{Network Structure of the cluster}
+	\label{fg:clustur}
+\end{figure}
