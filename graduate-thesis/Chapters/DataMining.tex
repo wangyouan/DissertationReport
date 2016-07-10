@@ -67,6 +67,7 @@ This normalization method shares same problem with min-max, the mean average and
 To avoid this problem, in this experiment, standard deviation normalization is mainly used to normalize the absolute difference value of price.
 
 \subsubsection{Sigmoid Normalization}
+\label{subsubsec:sigmoid}
 This normalization method is used in the training process of Artificial Neural Network. The data value $v$ is computed through\cite{nayak2014impact},
 
 \begin{equation}
@@ -76,7 +77,7 @@ v'(i)=\frac{1}{1+e^{v(i)}}
 One advantage of this type of normalization is that no previous knowledge of data is needed. But it is not suitable to transform raw data directly as the scale of original is a little large.
 
 \section{Principal Components Analysis (PCA)}
-To interpret a large dataset in a more meaningful form, it is necessary to reduce the number of variables to a few, interpretable linear combinations of the data. PCA is probably the most widely-used and well-known of the “standard” multivariate methods. PCA is a useful tool to extract relevant information from data sets, and provides a method to reduce a complex data set to a lower dimension. Practical applications confirmed that PCA is the best linear dimension-reduction technique in the mean-square-error sense.\cite{4_kantardzic}.\\
+To interpret a large dataset in a more meaningful form, it is necessary to reduce the number of variables to a few, interpretable linear combinations of the data. PCA is probably the most widely-used and well-known of the “standard” multivariate methods. PCA is a useful tool to extract relevant information from data sets, and provides a method to reduce a complex data set to a lower dimension. Practical applications confirmed that PCA is the best linear dimension-reduction technique in the mean-square-error sense\cite{4_kantardzic}.\\
 
 
 PCA are based on the following assumptions\cite{shlens2014tutorial},
@@ -186,7 +187,7 @@ This algorithm runs very slow for a large data set input, as in every iteration,
 
 Spark MLlib use \emph{stochastic gradient descent (SGD)} to speed up the training process\footnote{As shown in its official document, \url{ http://spark.apache.org/docs/latest/mllib-linear-methods.html}}.\\
 
-The core idea of SGD is that updating parameters according to the gradient of the error with respect to that a small sample of training example (even one) instead of the whole data set\cite{2_ruder_2016}. The illustration of SGD can be found in figure~\ref{fg:SGD}
+The core idea of stochastic gradient descent (SGD) is that updating parameters according to the gradient of the error with respect to that a small sample of training example (even one) instead of the whole data set\cite{2_ruder_2016}. The illustration of SGD can be found in figure~\ref{fg:SGD}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{sgd}
@@ -219,22 +220,32 @@ D={(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)},x\in R^n, y\in{-1, 1},
 \end{equation}
 The hyperplane can be represented as
 \begin{equation}
-w^T \cdot x+b=0
+w \cdot x-b=0
 \end{equation}
 This means that
 \begin{align*}
-w^T\cdot x_i+b>0,& \text{if $y_i = 1$}\\
-w^T\cdot x_i+b<0,& \text{if $y_i = -1$}
+w \cdot x_i-b>0,& \text{if $y_i = 1$}\\
+w \cdot x_i-b<0,& \text{if $y_i = -1$}
 \end{align*}
 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{SVMHyperplane}
+	\includegraphics[width=0.6\textwidth]{SVMHyperplane}
 	\caption{A separating hyperplane $ (w, b) $ for 2-D data (Image source: \url{https://de.wikipedia.org/wiki/Support_Vector_Machine})}
 	\label{fg:SVMHyperplane}
 \end{figure}
 
+To make things clear, in figure~\ref{fg:SVMHyperplane}, two hyperplanes are added where $ w \cdot x_i-b $ equal -1 (on the lower right) and +1 (on the upper left). Thus, the constraint can be represented by
+\begin{equation}
+y_i(w\cdot x_i-b)\ge 1, i=1,\dots,n
+\end{equation}
+
+Geometrically, the distance between these two hyperplanes is $ \frac{2}{\lVert w \rVert} $, to maximize the distance, we need to minimize $ \lVert w \rVert $. Then the question turn out to be a optimization problem. The classifier can then be constructed as:
+\begin{equation}
+f(x)=sign(w\cdot x - b)
+\end{equation}
+Obviously, the distance between two hyperplanes is determined by the those $ x_i $ which is lied nearest to the max-margin hyperplane. These $ x_i $ are called \emph{support vectors (SVx)}.\\
 
 However, in real-world applications, there are the cases where subsets cannot be completely separated (like figure~\ref{fg:SVM_soft})\cite[p.~113]{4_kantardzic}. In other words, the algorithm would find a balance between maximizing the margin and minimizing the classifications error during optimization process.
 \begin{figure}[h]
@@ -245,10 +256,10 @@ However, in real-world applications, there are the cases where subsets cannot be
 \end{figure}
 
 \subsubsection{Logistic Regression}
-Logistic is also a widely used method to predict binary responses. Rather than predicting the value of the dependent variable in linear regression, logistic regression method estimates the probability that the dependent variable will choose from a given range\cite{4_kantardzic}.
+Logistic is also a widely used method to predict binary responses. Rather than predicting the value of the dependent variable in linear regression, logistic regression method estimates the probability that the dependent variable will choose from a given range\cite[Section~5.6, p.~157--158]{4_kantardzic}.
 
  
-Logistic regression takes probabilities of every label into consideration. Suppose that output Y has two possible values, 0 and 1. In training set, the possibilities can be expressed as: $ P(y_i=0)=1-p_i $ and $ P(y_i=1)=p_i $, then the \textit{linear logistic model} can be represented by~\cite{4_kantardzic},
+Logistic regression takes probabilities of every label into consideration. Suppose that output Y has two possible values, 0 and 1. In training set, the possibilities can be expressed as: $ P(y_i=0)=1-p_i $ and $ P(y_i=1)=p_i $, then the \textit{linear logistic model} can be represented by~\cite[Section~5.6, p.~157--158]{4_kantardzic},
 \begin{equation}
 	\log (\frac{p_i}{1-p_i}) = b + w^T \cdot x_i
 \end{equation}
@@ -258,7 +269,7 @@ The reason for using the logit form of output is to prevent the model from gener
 In this system, logistic regression algorithm are mainly used to predict the changing direction of stock price.
 
 \subsection{Random Forest}
-Random forest algorithm was first created by Tin Kam Ho\cite{ho1995random} and is based on decision trees. To reduce the risk of overfitting, random forests composes of a number of individual decision trees, and this is also where this method get its name from (as figure~\ref{fg:decision-tree} shows).
+Random forest algorithm was first created by Breiman and is based on decision trees\cite{lauretto2013evaluation}. To reduce the risk of over-fitting, random forests composes of a number of individual decision trees, and this is also where this method get its name from (as figure~\ref{fg:decision-tree} shows).
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{random-forest}
@@ -273,8 +284,8 @@ As every decision tree are trained and predicted separately, they can work in pa
 
 
 \subsection{Artificial Neural Network (ANN)}
-Neural networks was first inspired by human nervous system which is made up of neurons, a information processing unit (figure~\ref{fg:neural-nework}). Every neuron receive signals from input or former neurons, then compute them with the activation function and send its result to output or latter neurons\cite{russell2003artificial}.
-\begin{figure}[h]
+Neural networks was first inspired by human nervous system which is made up of neurons, a information processing unit (figure~\ref{fg:neural-nework}). Every neuron receive signals from input or former neurons, then compute them with the activation function and send its result to output or latter neurons\cite[p.~200]{4_kantardzic}.
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.6\textwidth]{neural_network}
 	\caption{Illustration of Artificial Neural Network with one hidden layer}
@@ -284,17 +295,32 @@ Neural networks was first inspired by human nervous system which is made up of n
 This dissertation uses feed-forward, multilayer perceptron, and back propagation ANN. The following sections introduce the meaning of these ANN types and summarize the process in this study.
 
 \subsubsection{Feed-forward Neural Network}
+The term ``feed-forward'' refers to the architecture of neural networks, in which neurons are only connected forward, i.e. every neuron only receives from input or former layer and no connection back\cite[p.~125]{heaton2008introduction}. The overall structure can be regarded as a sequence of repeated computations from input to the output (as figure~\ref{fg:FFNN} shows).
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{DataMining/MultiLayerNeuralNetwork}
+	\caption{Feed-forward Neural Network (Image sources: \url{http://technobium.com/stock-market-prediction-using-neuroph-neural-networks/})}
+	\label{fg:FFNN}
+\end{figure}
+
+\subsubsection{Recurrent Neural Network}
+Feed-forward is a very sample architecture, while recurrent neural network (RNN), on the other hand, is much more complicated and is more similar to real biological nervous system. This architecture has feedback from outputs or hidden layers back into earlier layers through a buffer\cite[p.~91]{1_shadbolttaylor_2002}. In this method, current results can affect future predictions, i.e., the prediction of this type neural network takes its past forecasts into consideration. This study does not focuses on this type of neural network is because we can use technical indicators to get the previous stock price information. So there is no need to dive into this complicated structure.
 
 \subsubsection{Multilayer Perceptron (MLP)}
 
-\subsubsection{Back Propagation (BP)}
+\textit{Multilayer Perceptron} (MLP) neural networks are one of the most important and most popular classes of ANNs\cite[p.~213, Section~7.5]{4_kantardzic}. Typically, this network consists of a set of input nodes as input layer, one or more hidden layers of computational nodes, and a set neurons as output layer (as figure~\ref{fg:FFNN} and~\ref{fg:neural-nework} shows).\\
 
+The model of each neuron in MLP network usually includes a nonlinear activation function. In this study uses sigmoid function (introduced in section~\ref{subsubsec:sigmoid})
 
-\subsubsection{ANN process in this dissertation}
-This study focus on feed-forward, BP MLP ANN. The steps of algorithm can be described as follow\cite{russell2003artificial}:
+The more hidden layers and the larger number of nodes in each hidden layer, the more complicated and powerful the MLP networks can be trained and also the more computing capability is needed. To balance the training cost and prediction accuracy, this dissertation uses a two-hidden-layer MLP network.
+
+\subsubsection{Back Propagation (BP) Algorithm}
+Back Propagation (BP) algorithm is based on error-correction learning, and help the MLP networks to adjust its weights to minimize the error\cite[p.~214--218]{4_kantardzic}.\\
+
+BP consists of two phases: a forward pass and a backward pass. In the former phase, a training sample is applied to the input layer, and its output is calculated based on fixed weights. Then the difference between output and target is regarded as error and used in backward pass to update weights. The steps of algorithm can be described as follow\cite{nayak2014impact}:
 \begin{enumerate}
 	\item \textit{Initialize weights $ w $ with a small random value}. Suppose layer $ j $ has $ m $ nodes, layer $j + 1$ has $ n $ nodes, then the weight matrix between these two layer $ w_{jj+1} $ should have $ m \times n $.
-	\item \textit{Forward Propagation}. The values of every layer $ i $ remark as $ l_i $ (Input as $ l_i =l_1 $, output as $l_o=l_n$, suppose there are n layers in total), the node $ k $ in $ l_j $ remark as $ l_jk $. Given the activation function
+	\item \textit{Forward pass}. The values of every layer $ i $ remark as $ l_i $ (Input as $ l_i =l_1 $, output as $l_o=l_n$, suppose there are n layers in total), the node $ k $ in $ l_j $ remark as $ l_jk $. Given the activation function
 	\begin{equation}
 	f(l) = \frac{1}{1+e^{-l}}
 	\end{equation}
@@ -303,7 +329,7 @@ This study focus on feed-forward, BP MLP ANN. The steps of algorithm can be desc
 	l_{i+1}=f(w_{ii+1}^T\cdot l_i)
 	\end{equation}
 	From the input layer, do this calculation. Record those values as $ l = [l_i, l_2, \ldots, l_o] $.
-	\item \textit{Back Propagation and weights update} 
+	\item \textit{Backward pass and weights update} 
 	\begin{enumerate}
 		\item Get the error value using
 		\begin{equation}
@@ -323,4 +349,5 @@ This study focus on feed-forward, BP MLP ANN. The steps of algorithm can be desc
 	\end{enumerate}
 \end{enumerate}
 
-The above algorithm is a typical batch gradient descent process. As data amount is relatively small (e.g. 1 year only have around 250 transaction days), using this method is much faster to reach the optimal solution.
+The above algorithm is very similar to a typical batch gradient descent process. As data amount is relatively small (e.g. 1 year only have around 250 transaction days), using this method is much faster to reach the optimal solution than use a training process much like SGD.
+
