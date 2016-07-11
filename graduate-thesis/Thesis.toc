@@ -12,11 +12,11 @@
 \defcounter {refsection}{0}\relax 
 \vspace {1em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{xii}{dummy.5}
+\contentsline {chapter}{List of Figures}{ix}{dummy.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xiv}{dummy.7}
+\contentsline {chapter}{List of Tables}{xi}{dummy.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbreviations}{xvi}{dummy.9}
+\contentsline {chapter}{Abbreviations}{xiii}{dummy.9}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
@@ -38,480 +38,198 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Review of stock market understanding}{7}{section.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Review of Stock Prediction Method}{8}{section.21}
+\contentsline {section}{\numberline {2.3}Review of Traditional Stock Prediction Method}{8}{section.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Market Understanding and Data Selection}{10}{chapter.22}
+\contentsline {section}{\numberline {2.4}Review of Machine Learning Stock Prediction Method}{9}{section.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction of Hong Kong Stock Exchange market}{10}{section.23}
+\contentsline {chapter}{\numberline {3}Market Understanding and Data Selection}{10}{chapter.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Data Selection}{12}{section.26}
+\contentsline {section}{\numberline {3.1}Efficient Market Hypothesis (EMH)}{10}{section.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Historical Price}{13}{subsection.27}
+\contentsline {section}{\numberline {3.2}Introduction of Hong Kong Stock Exchange market}{11}{section.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Technical Indicator}{13}{subsection.28}
+\contentsline {section}{\numberline {3.3}Data Selection}{13}{section.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Hang Seng Interbank Offered Rate (HIBOR)}{14}{subsection.30}
+\contentsline {subsection}{\numberline {3.3.1}Historical Price}{13}{subsection.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Foreign exchange rate}{14}{subsection.32}
+\contentsline {subsection}{\numberline {3.3.2}Technical Indicator}{13}{subsection.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Other data}{15}{subsection.33}
+\contentsline {subsection}{\numberline {3.3.3}Hang Seng Interbank Offered Rate (HIBOR)}{14}{subsection.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Distributed Computing}{16}{chapter.34}
+\contentsline {subsection}{\numberline {3.3.4}Foreign exchange rate}{14}{subsection.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}MapReduce}{17}{section.35}
+\contentsline {subsection}{\numberline {3.3.5}Other data}{15}{subsection.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Spark}{17}{section.36}
+\contentsline {chapter}{\numberline {4}Distributed Computing}{16}{chapter.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Comparison between MapReduce and Spark}{18}{section.38}
+\contentsline {section}{\numberline {4.1}MapReduce}{17}{section.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Core Technology in Spark}{20}{section.42}
+\contentsline {section}{\numberline {4.2}Spark}{17}{section.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Spark Machine Learning Library (MLlib)}{22}{section.52}
+\contentsline {section}{\numberline {4.3}Comparison between MapReduce and Spark}{18}{section.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Summary}{23}{section.53}
+\contentsline {section}{\numberline {4.4}Core Technology in Spark}{20}{section.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Data Processing Methods}{25}{chapter.54}
+\contentsline {section}{\numberline {4.5}Spark Machine Learning Library (MLlib)}{22}{section.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Data Preprocessing}{25}{section.55}
+\contentsline {section}{\numberline {4.6}Summary}{23}{section.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Data Clean}{26}{subsection.56}
+\contentsline {chapter}{\numberline {5}Data Processing Methods}{25}{chapter.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Data normalizations}{28}{subsection.59}
+\contentsline {section}{\numberline {5.1}Data Preprocessing}{25}{section.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.1}Min-Max Normalization}{28}{subsubsection.60}
+\contentsline {subsection}{\numberline {5.1.1}Data Clean}{26}{subsection.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.2}Standard Deviation Normalization}{29}{subsubsection.62}
+\contentsline {subsection}{\numberline {5.1.2}Data normalizations}{28}{subsection.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.3}Sigmoid Normalization}{30}{subsubsection.64}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Min-Max Normalization}{28}{subsubsection.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Principal Components Analysis (PCA)}{30}{section.66}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Standard Deviation Normalization}{29}{subsubsection.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Supervised Learning Method}{32}{section.73}
+\contentsline {subsubsection}{\numberline {5.1.2.3}Sigmoid Normalization}{30}{subsubsection.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Linear Model}{33}{subsection.77}
+\contentsline {section}{\numberline {5.2}Principal Components Analysis (PCA)}{30}{section.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1.1}Linear Regression}{34}{subsubsection.78}
+\contentsline {section}{\numberline {5.3}Supervised Learning Method}{32}{section.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1.2}Linear Support Vector Machines (SVMs)}{37}{subsubsection.89}
+\contentsline {subsection}{\numberline {5.3.1}Linear Model}{33}{subsection.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1.3}Logistic Regression}{40}{subsubsection.97}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Linear Regression}{34}{subsubsection.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Random Forest}{42}{subsection.99}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Linear Support Vector Machines (SVMs)}{37}{subsubsection.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Artificial Neural Network (ANN)}{43}{subsection.101}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Logistic Regression}{40}{subsubsection.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.1}Feed-forward Neural Network}{44}{subsubsection.103}
+\contentsline {subsection}{\numberline {5.3.2}Random Forest}{42}{subsection.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.2}Recurrent Neural Network}{45}{subsubsection.105}
+\contentsline {subsection}{\numberline {5.3.3}Artificial Neural Network (ANN)}{43}{subsection.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.3}Multilayer Perceptron (MLP)}{45}{subsubsection.106}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Feed-forward Neural Network}{44}{subsubsection.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.4}Back Propagation (BP) Algorithm}{46}{subsubsection.107}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Recurrent Neural Network}{45}{subsubsection.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}System Design}{48}{chapter.119}
+\contentsline {subsubsection}{\numberline {5.3.3.3}Multilayer Perceptron (MLP)}{45}{subsubsection.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Data Processing}{49}{section.121}
+\contentsline {subsubsection}{\numberline {5.3.3.4}Back Propagation (BP) Algorithm}{46}{subsubsection.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Training and Predict}{51}{section.129}
+\contentsline {chapter}{\numberline {6}System Design}{48}{chapter.121}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Model Evaluation}{52}{section.130}
+\contentsline {chapter}{\numberline {7}Simulation data and Test Environment}{50}{chapter.123}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Training Model}{55}{chapter.138}
+\contentsline {section}{\numberline {7.1}Raw data for training}{50}{section.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}A Section}{56}{section.139}
+\contentsline {section}{\numberline {7.2}Testing Environment}{51}{section.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}A Subsection}{56}{subsection.140}
+\contentsline {chapter}{\numberline {8}Details of System}{53}{chapter.129}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Another Section}{57}{section.141}
+\contentsline {section}{\numberline {8.1}Detail Parameters}{53}{section.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Training Model}{58}{chapter.142}
+\contentsline {section}{\numberline {8.2}Data Mining Processing}{54}{section.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}A Section}{59}{section.143}
+\contentsline {subsubsection}{\numberline {8.2.0.1}Data Transformation (Normalization and PCA)}{55}{subsubsection.133}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.1}A Subsection}{59}{subsection.144}
+\contentsline {subsection}{\numberline {8.2.1}Model Training and Predicting process}{56}{subsection.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Another Section}{60}{section.145}
+\contentsline {chapter}{\numberline {9}Model Evaluation}{58}{chapter.142}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Simulation Data，Parameters and Testing Environment Evaluation Method}{61}{chapter.146}
+\contentsline {chapter}{\numberline {10}Model Accuracy Result for given 1 Year (2014)}{61}{chapter.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Raw data for training}{61}{section.147}
+\contentsline {section}{\numberline {10.1}Using 4 years historical data}{62}{section.152}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Detail Parameters of every training method}{62}{section.148}
+\contentsline {section}{\numberline {10.2}Using 3 years historical data}{63}{section.155}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Testing Environment}{63}{section.150}
+\contentsline {section}{\numberline {10.3}Using 2 years historical data}{64}{section.158}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Model Accuracy Result for given 1 Year (2014)}{66}{chapter.154}
+\contentsline {section}{\numberline {10.4}Using 1 year historical data}{66}{section.161}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Using 4 years historical data}{67}{section.156}
+\contentsline {section}{\numberline {10.5}Summary}{67}{section.188}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Using 3 years historical data}{68}{section.159}
+\contentsline {chapter}{\numberline {11}Further Discuss on prediction method}{76}{chapter.194}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Using 2 years historical data}{69}{section.162}
+\contentsline {section}{\numberline {11.1}Does Stock Price have effects on stock prediction results?}{77}{section.195}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Using 1 year historical data}{71}{section.165}
+\contentsline {section}{\numberline {11.2}Stock Performance on Specific Stocks with different time period}{79}{section.198}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Summary}{72}{section.192}
+\contentsline {subsection}{\numberline {11.2.1}Test period 1 [from 2013-01-06 to 2016-01-06]}{80}{subsection.199}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Further Discuss on prediction method}{81}{chapter.198}
+\contentsline {subsection}{\numberline {11.2.2}Test period 2 [from 2009-01-06 to 2012-01-06]}{81}{subsection.202}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Does Stock Price have effects on stock prediction results?}{82}{section.199}
+\contentsline {subsection}{\numberline {11.2.3}Test period 3 [from 2010-01-06 to 2013-01-06]}{82}{subsection.205}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Stock Performance on Specific Stocks with different time period}{84}{section.202}
+\contentsline {section}{\numberline {11.3}Testing on algorithm favor of a specific stock}{84}{section.209}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Test period 1 [from 2013-01-06 to 2016-01-06]}{85}{subsection.203}
+\contentsline {chapter}{\numberline {12}Speed Result}{87}{chapter.212}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Test period 2 [from 2009-01-06 to 2012-01-06]}{86}{subsection.206}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}Test period 3 [from 2010-01-06 to 2013-01-06]}{87}{subsection.209}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Testing on algorithm favor of a specific stock}{89}{section.213}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Speed Result}{92}{chapter.216}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Conclusion}{93}{chapter.218}
+\contentsline {chapter}{\numberline {13}Conclusion}{88}{chapter.214}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Technical Indicators}{95}{appendix.219}
+\contentsline {chapter}{\numberline {A}Technical Indicators}{90}{appendix.215}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Moving Average (MA)\cite {kahn2006technical}}{95}{section.220}
+\contentsline {section}{\numberline {A.1}Moving Average (MA)}{90}{section.216}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{96}{subsection.221}
+\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{91}{subsection.217}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{96}{subsection.223}
+\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{91}{subsection.219}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{96}{section.226}
+\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{91}{section.222}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{97}{section.228}
+\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{92}{section.224}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{98}{section.230}
+\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{93}{section.226}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Testing Result}{99}{appendix.232}
+\contentsline {chapter}{\numberline {B}Testing Result}{94}{appendix.228}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Using 4 year historical data}{99}{section.233}
+\contentsline {section}{\numberline {B.1}Using 4 year historical data}{94}{section.229}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Using 3 year historical data}{102}{section.240}
+\contentsline {section}{\numberline {B.2}Using 3 year historical data}{96}{section.236}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Using 2 year historical data}{105}{section.247}
+\contentsline {section}{\numberline {B.3}Using 2 year historical data}{99}{section.243}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Using 1 year historical data}{108}{section.254}
+\contentsline {section}{\numberline {B.4}Using 1 year historical data}{101}{section.250}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Introduction of company related in this dissertation}{111}{appendix.261}
+\contentsline {chapter}{\numberline {C}Introduction of company related in this dissertation}{103}{appendix.257}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}CK Hutchison Holdings Ltd.}{111}{section.262}
+\contentsline {section}{\numberline {C.1}CK Hutchison Holdings Ltd.}{103}{section.258}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{112}{section*.263}
+\contentsline {section}{\numberline {C.2}CLP Holdings Ltd.}{104}{section.259}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}CLP Holdings Ltd.}{112}{section.264}
+\contentsline {section}{\numberline {C.3}Hong Kong and China Gas Co. Ltd., The}{104}{section.260}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{112}{section*.265}
+\contentsline {section}{\numberline {C.4}Wharf (Holdings) Ltd., The}{105}{section.261}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Hong Kong and China Gas Co. Ltd., The}{112}{section.266}
+\contentsline {section}{\numberline {C.5}HSBC Holdings plc}{105}{section.262}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{113}{section*.267}
+\contentsline {section}{\numberline {C.6}Power Assets Holdings Ltd.}{106}{section.263}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Wharf (Holdings) Ltd., The}{113}{section.268}
+\contentsline {section}{\numberline {C.7}PCCW Ltd.}{106}{section.264}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{113}{section*.269}
+\contentsline {section}{\numberline {C.8}Nine Express Ltd.}{107}{section.265}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.5}HSBC Holdings plc}{114}{section.270}
+\contentsline {section}{\numberline {C.9}Hang Lung Group Ltd.}{107}{section.266}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{114}{section*.271}
+\contentsline {section}{\numberline {C.10}Henderson Land Development Co. Ltd.}{108}{section.267}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.6}Power Assets Holdings Ltd.}{114}{section.272}
+\contentsline {section}{\numberline {C.11}Hysan Development Co. Ltd.}{108}{section.268}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{114}{section*.273}
+\contentsline {section}{\numberline {C.12}Sun Hung Kai Properties Ltd.}{109}{section.269}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.7}PCCW Ltd.}{115}{section.274}
+\contentsline {section}{\numberline {C.13}Bank of East Asia, Ltd., The}{109}{section.270}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{115}{section*.275}
+\contentsline {section}{\numberline {C.14}Galaxy Entertainment Group Ltd.}{110}{section.271}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.8}Nine Express Ltd.}{115}{section.276}
+\contentsline {section}{\numberline {C.15}Ban Loong Holdings Ltd.}{110}{section.272}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.9}Hang Lung Group Ltd.}{116}{section.277}
+\contentsline {section}{\numberline {C.16}Cross-Harbour (Holdings) Ltd., The}{111}{section.273}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{116}{section*.278}
+\contentsline {section}{\numberline {C.17}First Tractor Co Ltd. - H Shares}{111}{section.274}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.10}Hang Seng Bank Ltd.}{116}{section.279}
+\contentsline {section}{\numberline {C.18}Cosmopolitan International Holdings Ltd.}{112}{section.275}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{116}{section*.280}
+\contentsline {section}{\numberline {C.19}MGM China Holdings Ltd.}{112}{section.276}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.11}Henderson Land Development Co. Ltd.}{117}{section.281}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{117}{section*.282}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.12}None}{117}{section.283}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{117}{section*.284}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.13}Hysan Development Co. Ltd.}{118}{section.285}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{118}{section*.286}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.14}Vantage International (Holdings) Ltd.}{118}{section.287}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{118}{section*.288}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.15}Sun Hung Kai Properties Ltd.}{119}{section.289}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{119}{section*.290}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.16}New World Development Co. Ltd.}{119}{section.291}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{120}{section*.292}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.17}Oriental Press Group Ltd.}{120}{section.293}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{120}{section*.294}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.18}Swire Pacific Ltd. 'A'}{120}{section.295}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{121}{section*.296}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.19}Wheelock and Co. Ltd.}{121}{section.297}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{121}{section*.298}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.20}Bank of East Asia, Ltd., The}{121}{section.299}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{122}{section*.300}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.21}Burwill Holdings Ltd.}{122}{section.301}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{122}{section*.302}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.22}Chevalier International Holdings Ltd.}{123}{section.303}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{123}{section*.304}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.23}Galaxy Entertainment Group Ltd.}{123}{section.305}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{124}{section*.306}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.24}China Aerospace International Holdings Ltd.}{124}{section.307}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{124}{section*.308}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.25}Cross-Harbour (Holdings) Ltd., The}{124}{section.309}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{125}{section*.310}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.26}Kowloon Development Co. Ltd.}{125}{section.311}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{125}{section*.312}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.27}Far East Consortium International Ltd.}{125}{section.313}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{126}{section*.314}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.28}First Tractor Co Ltd. - H Shares}{126}{section.315}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{126}{section*.316}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.29}China Beidahuang Industry Group Holdings Ltd.}{127}{section.317}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{127}{section*.318}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.30}Great Eagle Holdings Ltd.}{127}{section.319}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{128}{section*.320}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.31}Northeast Electric Development Co. Ltd. - H Shares}{128}{section.321}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{128}{section*.322}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.32}C. P. Pokphand Co. Ltd.}{128}{section.323}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{129}{section*.324}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.33}Hong Kong Aircraft Engineering Co. Ltd.}{129}{section.325}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{129}{section*.326}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.34}Hongkong and Shanghai Hotels, Ltd., The}{129}{section.327}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{130}{section*.328}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.35}Fairwood Holdings Ltd.}{130}{section.329}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{130}{section*.330}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.36}Guoco Group Ltd.}{131}{section.331}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{131}{section*.332}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.37}Hopewell Holdings Ltd.}{131}{section.333}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{131}{section*.334}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.38}Allied Properties (HK) Ltd.}{132}{section.335}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{132}{section*.336}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.39}Chen Hsong Holdings Ltd.}{132}{section.337}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{133}{section*.338}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.40}Transport International Holdings Ltd.}{133}{section.339}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{133}{section*.340}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.41}Get Nice Holdings Ltd.}{133}{section.341}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{134}{section*.342}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.42}Grand Ocean Advanced Resources Co. Ltd.}{134}{section.343}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{134}{section*.344}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.43}MTR Corporation Ltd.}{134}{section.345}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{135}{section*.346}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.44}Tai Cheung Holdings Ltd.}{135}{section.347}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{135}{section*.348}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.45}Cosmopolitan International Holdings Ltd.}{136}{section.349}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{136}{section*.350}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.46}Tsingtao Brewery Co. Ltd. - H Shares}{136}{section.351}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{136}{section*.352}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.47}Kingdee International Software Group Co. Ltd.}{137}{section.353}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{137}{section*.354}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.48}China Resources Beer (Holdings) Co. Ltd.}{137}{section.355}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{137}{section*.356}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.49}Tianda Pharmaceuticals Ltd.}{138}{section.357}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{138}{section*.358}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.50}CMMB Vision Holdings Ltd.}{138}{section.359}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{138}{section*.360}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.51}Fufeng Group Ltd.}{139}{section.361}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{139}{section*.362}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.52}The 13 Holdings Ltd.}{139}{section.363}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{139}{section*.364}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.53}China Overseas Land \& Investment Ltd.}{140}{section.365}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{140}{section*.366}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.54}Tencent Holdings Ltd.}{140}{section.367}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{140}{section*.368}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.55}Hopewell Highway Infrastructure Ltd.}{141}{section.369}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{141}{section*.370}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.56}China National Culture Group Ltd.}{141}{section.371}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{141}{section*.372}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.57}NetDragon Websoft Holdings Ltd.}{142}{section.373}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{142}{section*.374}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.58}Glorious Property Holdings Ltd.}{142}{section.375}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{142}{section*.376}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.59}TUS International Ltd.}{143}{section.377}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{143}{section*.378}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.60}RoadShow Holdings Ltd.}{143}{section.379}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{144}{section*.380}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.61}G-Resources Group Ltd.}{144}{section.381}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{144}{section*.382}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.62}Biostime International Holdings Ltd.}{144}{section.383}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{145}{section*.384}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.63}China Modern Dairy Holdings Ltd.}{145}{section.385}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{145}{section*.386}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.64}China-Hongkong Photo Products Holdings Ltd.}{145}{section.387}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{146}{section*.388}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.65}Tang Palace (China) Holdings Ltd.}{146}{section.389}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{146}{section*.390}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.66}Yashili International Holdings Ltd.}{146}{section.391}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{147}{section*.392}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.67}SPT Energy Group Inc.}{147}{section.393}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{147}{section*.394}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.68}Tsui Wah Holdings Ltd.}{147}{section.395}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{148}{section*.396}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.69}361 Degrees International Ltd.}{148}{section.397}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{148}{section*.398}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.70}Synertone Communication Corporation}{149}{section.399}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{149}{section*.400}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.71}Sunac China Holdings Ltd.}{149}{section.401}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{150}{section*.402}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.72}SSY Group Ltd.}{150}{section.403}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{150}{section*.404}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.73}Jinchuan Group International Resources Co. Ltd.}{150}{section.405}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{151}{section*.406}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.74}TOM Group Ltd.}{151}{section.407}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{151}{section*.408}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.75}Yuanda China Holdings Ltd.}{151}{section.409}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{152}{section*.410}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.76}China Fiber Optic Network System Group Ltd.}{152}{section.411}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{152}{section*.412}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.77}HKT Trust and HKT Ltd. - SS}{153}{section.413}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{153}{section*.414}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.78}Yunbo Digital Synergy Group Ltd.}{153}{section.415}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{154}{section*.416}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.79}First China Financial Network Holdings Ltd.}{154}{section.417}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Summary}{154}{section*.418}
+\contentsline {section}{\numberline {C.20}HKT Trust and HKT Ltd. - SS}{113}{section.277}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{155}{dummy.419}
+\contentsline {chapter}{Bibliography}{114}{dummy.278}
