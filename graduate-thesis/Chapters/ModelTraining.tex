@@ -34,7 +34,7 @@ To determine the number of neurons use in the hidden layers, Jeff Heaton also wr
 \section{Data Mining Processing}
 The data mining process in this system include data preprocessing, data normalization, PCA transformation, model training and price prediction. The technique details about data process are introduced in Chapter~\ref{ch:mining}. Data clean process just follows the rules introduced in section~\ref{sec:dataClean}, let's start with the transformation process.
 
-\subsubsection{Data Transformation (Normalization and PCA)}
+\subsection{Data Transformation (Normalization and PCA)}
 
 Feature vectors transform process are,
 \begin{enumerate}
@@ -72,3 +72,9 @@ As described before, there are two types of combination of learning methods used
 	\item Using one single algorithm to predict the stock price directly. Such algorithms include Linear Regression, Random Forest and ANN
 	\item A combination of two learning method, using one algorithm to predict change direction (Logistic Regression, Random Forest and SVM), another to forecast amount (Linear Regression, Random, Forest and ANN). The two method works separately, and the predict result is the combination of both model.
 \end{itemize}
+
+These two learning methods has very small difference in the training and predicting process, 
+\begin{enumerate}
+	\item Randomly split  
+\end{enumerate}
+

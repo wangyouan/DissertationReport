@@ -68,168 +68,176 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Comparison between MapReduce and Spark}{18}{section.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Core Technology in Spark}{20}{section.44}
+\contentsline {section}{\numberline {4.4}Core Data Structure in Spark}{20}{section.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Spark Machine Learning Library (MLlib)}{22}{section.54}
+\contentsline {subsection}{\numberline {4.4.1}Resilient Distributed Datasets}{20}{subsection.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Summary}{23}{section.55}
+\contentsline {subsection}{\numberline {4.4.2}Spark SQL and DataFrame}{22}{subsection.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Data Processing Methods}{25}{chapter.56}
+\contentsline {section}{\numberline {4.5}Spark Machine Learning Library (MLlib)}{23}{section.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Data Preprocessing}{25}{section.57}
+\contentsline {section}{\numberline {4.6}Summary}{24}{section.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Data Clean}{26}{subsection.58}
+\contentsline {chapter}{\numberline {5}Data Processing Methods}{25}{chapter.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Data normalizations}{28}{subsection.61}
+\contentsline {section}{\numberline {5.1}Data Preprocessing}{25}{section.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.1}Min-Max Normalization}{28}{subsubsection.62}
+\contentsline {subsection}{\numberline {5.1.1}Data Clean}{26}{subsection.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.2}Standard Deviation Normalization}{29}{subsubsection.64}
+\contentsline {subsection}{\numberline {5.1.2}Data normalizations}{28}{subsection.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2.3}Sigmoid Normalization}{30}{subsubsection.66}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Min-Max Normalization}{28}{subsubsection.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Principal Components Analysis (PCA)}{30}{section.68}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Standard Deviation Normalization}{29}{subsubsection.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Supervised Learning Method}{32}{section.75}
+\contentsline {subsubsection}{\numberline {5.1.2.3}Sigmoid Normalization}{30}{subsubsection.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Linear Model}{33}{subsection.79}
+\contentsline {section}{\numberline {5.2}Principal Components Analysis (PCA)}{30}{section.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1.1}Linear Regression}{34}{subsubsection.80}
+\contentsline {section}{\numberline {5.3}Supervised Learning Method}{32}{section.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1.2}Linear Support Vector Machines (SVMs)}{37}{subsubsection.91}
+\contentsline {subsection}{\numberline {5.3.1}Linear Model}{33}{subsection.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1.3}Logistic Regression}{40}{subsubsection.99}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Linear Regression}{34}{subsubsection.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Random Forest}{42}{subsection.101}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Logistic Regression}{37}{subsubsection.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Artificial Neural Network (ANN)}{43}{subsection.103}
+\contentsline {subsection}{\numberline {5.3.2}Random Forest}{38}{subsection.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.1}Feed-forward Neural Network}{44}{subsubsection.105}
+\contentsline {subsection}{\numberline {5.3.3}Artificial Neural Network (ANN)}{39}{subsection.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.2}Recurrent Neural Network}{45}{subsubsection.107}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Feed-forward Neural Network}{40}{subsubsection.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.3}Multilayer Perceptron (MLP)}{45}{subsubsection.108}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Recurrent Neural Network}{41}{subsubsection.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.3.4}Back Propagation (BP) Algorithm}{46}{subsubsection.109}
+\contentsline {subsubsection}{\numberline {5.3.3.3}Multilayer Perceptron (MLP)}{42}{subsubsection.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}System Design}{48}{chapter.121}
+\contentsline {subsubsection}{\numberline {5.3.3.4}Back Propagation (BP) Algorithm}{42}{subsubsection.104}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Simulation data and Test Environment}{50}{chapter.123}
+\contentsline {chapter}{\numberline {6}System Design}{45}{chapter.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Raw data for training}{50}{section.124}
+\contentsline {chapter}{\numberline {7}Simulation data and Test Environment}{47}{chapter.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Testing Environment}{51}{section.125}
+\contentsline {section}{\numberline {7.1}Raw data for training}{47}{section.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Details of System}{53}{chapter.129}
+\contentsline {section}{\numberline {7.2}Testing Environment}{48}{section.120}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Detail Parameters}{53}{section.130}
+\contentsline {chapter}{\numberline {8}Details of System}{50}{chapter.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Data Mining Processing}{54}{section.132}
+\contentsline {section}{\numberline {8.1}Detail Parameters}{50}{section.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.2.0.1}Data Transformation (Normalization and PCA)}{55}{subsubsection.133}
+\contentsline {section}{\numberline {8.2}Data Mining Processing}{51}{section.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Model Training and Predicting process}{56}{subsection.141}
+\contentsline {subsection}{\numberline {8.2.1}Data Transformation (Normalization and PCA)}{52}{subsection.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Model Evaluation}{58}{chapter.142}
+\contentsline {subsection}{\numberline {8.2.2}Model Training and Predicting process}{53}{subsection.136}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Model Accuracy Result for given 1 Year (2014)}{61}{chapter.150}
+\contentsline {chapter}{\numberline {9}Model Evaluation}{55}{chapter.138}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Using 4 years historical data}{62}{section.152}
+\contentsline {chapter}{\numberline {10}Model Accuracy Result for given 1 Year (2014)}{58}{chapter.146}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Using 3 years historical data}{63}{section.155}
+\contentsline {section}{\numberline {10.1}Using 4 years historical data}{59}{section.148}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Using 2 years historical data}{64}{section.158}
+\contentsline {section}{\numberline {10.2}Using 3 years historical data}{60}{section.151}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Using 1 year historical data}{66}{section.161}
+\contentsline {section}{\numberline {10.3}Using 2 years historical data}{61}{section.154}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Summary}{67}{section.188}
+\contentsline {section}{\numberline {10.4}Using 1 year historical data}{63}{section.157}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Further Discuss on prediction method}{76}{chapter.194}
+\contentsline {section}{\numberline {10.5}Summary}{64}{section.184}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Does Stock Price have effects on stock prediction results?}{77}{section.195}
+\contentsline {chapter}{\numberline {11}Further Discuss on prediction method}{73}{chapter.190}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Stock Performance on Specific Stocks with different time period}{79}{section.198}
+\contentsline {section}{\numberline {11.1}Does Stock Price have effects on stock prediction results?}{74}{section.191}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Test period 1 [from 2013-01-06 to 2016-01-06]}{80}{subsection.199}
+\contentsline {section}{\numberline {11.2}Stock Performance on Specific Stocks with different time period}{76}{section.194}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Test period 2 [from 2009-01-06 to 2012-01-06]}{81}{subsection.202}
+\contentsline {subsection}{\numberline {11.2.1}Test period 1 [from 2013-01-06 to 2016-01-06]}{77}{subsection.195}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}Test period 3 [from 2010-01-06 to 2013-01-06]}{82}{subsection.205}
+\contentsline {subsection}{\numberline {11.2.2}Test period 2 [from 2009-01-06 to 2012-01-06]}{78}{subsection.198}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Testing on algorithm favor of a specific stock}{84}{section.209}
+\contentsline {subsection}{\numberline {11.2.3}Test period 3 [from 2010-01-06 to 2013-01-06]}{79}{subsection.201}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Speed Result}{87}{chapter.212}
+\contentsline {section}{\numberline {11.3}Testing on algorithm favor of a specific stock}{81}{section.205}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Conclusion}{88}{chapter.214}
+\contentsline {chapter}{\numberline {12}Speed Result}{84}{chapter.208}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}Testing Environment}{84}{section.209}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}Testing Method}{84}{section.210}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}Testing Result}{85}{section.211}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {13}Conclusion}{86}{chapter.213}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Technical Indicators}{90}{appendix.215}
+\contentsline {chapter}{\numberline {A}Technical Indicators}{88}{appendix.214}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Moving Average (MA)}{90}{section.216}
+\contentsline {section}{\numberline {A.1}Moving Average (MA)}{88}{section.215}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{91}{subsection.217}
+\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{89}{subsection.216}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{91}{subsection.219}
+\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{89}{subsection.218}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{91}{section.222}
+\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{89}{section.221}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{92}{section.224}
+\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{90}{section.223}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{93}{section.226}
+\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{91}{section.225}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Testing Result}{94}{appendix.228}
+\contentsline {chapter}{\numberline {B}Testing Result}{92}{appendix.227}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Using 4 year historical data}{94}{section.229}
+\contentsline {section}{\numberline {B.1}Using 4 year historical data}{92}{section.228}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Using 3 year historical data}{96}{section.236}
+\contentsline {section}{\numberline {B.2}Using 3 year historical data}{94}{section.235}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Using 2 year historical data}{99}{section.243}
+\contentsline {section}{\numberline {B.3}Using 2 year historical data}{97}{section.242}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Using 1 year historical data}{101}{section.250}
+\contentsline {section}{\numberline {B.4}Using 1 year historical data}{99}{section.249}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Introduction of company related in this dissertation}{103}{appendix.257}
+\contentsline {chapter}{\numberline {C}Introduction of company related in this dissertation}{101}{appendix.256}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}CK Hutchison Holdings Ltd.}{103}{section.258}
+\contentsline {section}{\numberline {C.1}CK Hutchison Holdings Ltd.}{101}{section.257}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}CLP Holdings Ltd.}{104}{section.259}
+\contentsline {section}{\numberline {C.2}CLP Holdings Ltd.}{102}{section.258}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Hong Kong and China Gas Co. Ltd., The}{104}{section.260}
+\contentsline {section}{\numberline {C.3}Hong Kong and China Gas Co. Ltd., The}{102}{section.259}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Wharf (Holdings) Ltd., The}{105}{section.261}
+\contentsline {section}{\numberline {C.4}Wharf (Holdings) Ltd., The}{103}{section.260}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.5}HSBC Holdings plc}{105}{section.262}
+\contentsline {section}{\numberline {C.5}HSBC Holdings plc}{103}{section.261}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.6}Power Assets Holdings Ltd.}{106}{section.263}
+\contentsline {section}{\numberline {C.6}Power Assets Holdings Ltd.}{104}{section.262}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.7}PCCW Ltd.}{106}{section.264}
+\contentsline {section}{\numberline {C.7}PCCW Ltd.}{104}{section.263}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.8}Nine Express Ltd.}{107}{section.265}
+\contentsline {section}{\numberline {C.8}Nine Express Ltd.}{105}{section.264}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.9}Hang Lung Group Ltd.}{107}{section.266}
+\contentsline {section}{\numberline {C.9}Hang Lung Group Ltd.}{105}{section.265}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.10}Henderson Land Development Co. Ltd.}{108}{section.267}
+\contentsline {section}{\numberline {C.10}Henderson Land Development Co. Ltd.}{106}{section.266}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.11}Hysan Development Co. Ltd.}{108}{section.268}
+\contentsline {section}{\numberline {C.11}Hysan Development Co. Ltd.}{106}{section.267}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.12}Sun Hung Kai Properties Ltd.}{109}{section.269}
+\contentsline {section}{\numberline {C.12}Sun Hung Kai Properties Ltd.}{107}{section.268}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.13}Bank of East Asia, Ltd., The}{109}{section.270}
+\contentsline {section}{\numberline {C.13}Bank of East Asia, Ltd., The}{107}{section.269}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.14}Galaxy Entertainment Group Ltd.}{110}{section.271}
+\contentsline {section}{\numberline {C.14}Galaxy Entertainment Group Ltd.}{108}{section.270}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.15}Ban Loong Holdings Ltd.}{110}{section.272}
+\contentsline {section}{\numberline {C.15}Ban Loong Holdings Ltd.}{108}{section.271}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.16}Cross-Harbour (Holdings) Ltd., The}{111}{section.273}
+\contentsline {section}{\numberline {C.16}Cross-Harbour (Holdings) Ltd., The}{109}{section.272}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.17}First Tractor Co Ltd. - H Shares}{111}{section.274}
+\contentsline {section}{\numberline {C.17}First Tractor Co Ltd. - H Shares}{109}{section.273}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.18}Cosmopolitan International Holdings Ltd.}{112}{section.275}
+\contentsline {section}{\numberline {C.18}Cosmopolitan International Holdings Ltd.}{110}{section.274}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.19}MGM China Holdings Ltd.}{112}{section.276}
+\contentsline {section}{\numberline {C.19}MGM China Holdings Ltd.}{110}{section.275}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.20}HKT Trust and HKT Ltd. - SS}{113}{section.277}
+\contentsline {section}{\numberline {C.20}HKT Trust and HKT Ltd. - SS}{111}{section.276}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{114}{dummy.278}
+\contentsline {chapter}{Bibliography}{112}{dummy.277}

@@ -18,45 +18,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Data cycle in Hadoop MapReduce\relax }}{19}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Data cycle in Hadoop MapReduce\relax }}{19}{figure.caption.42}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Data cycle in Apache Spark\relax }}{19}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Two types of Spark Dependency\cite [p.\nobreakspace {}8]{zaharia2012resilient}\relax }}{21}{figure.caption.45}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Two types of Spark Dependency\cite [p.\nobreakspace {}8]{zaharia2012resilient}\relax }}{21}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Narrow Dependency}}}{21}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Narrow Dependency}}}{21}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wide Denpendency}}}{21}{figure.caption.45}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Example for invalid data\relax }}{26}{figure.caption.59}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Example for missing data\relax }}{27}{figure.caption.60}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Example of simple linear regression with one variable\relax }}{34}{figure.caption.82}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration of gradient descent (Image source: \url {http://www.holehouse.org/mlclass/17_Large_Scale_Machine\_Learning.html})\relax }}{36}{figure.caption.87}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Illustration of stochastic gradient descent (SGD) (Image source: \url {http://www.holehouse.org/mlclass/17_Large_Scale_Machine_Learning.html})\relax }}{37}{figure.caption.89}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Illustration of service vector machines (Image source: \url {https://de.wikipedia.org/wiki/Support_Vector_Machine})\relax }}{38}{figure.caption.92}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces A separating hyperplane $ (w, b) $ for 2-D data (Image source: \url {https://de.wikipedia.org/wiki/Support_Vector_Machine})\relax }}{39}{figure.caption.95}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Soft margin of SVMs\relax }}{41}{figure.caption.98}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Illustration of random forest\relax }}{42}{figure.caption.102}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Illustration of Artificial Neural Network with one hidden layer\relax }}{43}{figure.caption.104}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Feed-forward Neural Network (Image sources: \url {http://technobium.com/stock-market-prediction-using-neuroph-neural-networks/})\relax }}{44}{figure.caption.106}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wide Denpendency}}}{21}{figure.caption.46}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Flow Chart of the whole system\relax }}{49}{figure.caption.122}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example for invalid data\relax }}{26}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example for missing data\relax }}{27}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Example of simple linear regression with one variable\relax }}{34}{figure.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration of gradient descent (Image source: \url {http://www.holehouse.org/mlclass/17_Large_Scale_Machine\_Learning.html})\relax }}{36}{figure.caption.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Illustration of stochastic gradient descent (SGD) (Image source: \url {http://www.holehouse.org/mlclass/17_Large_Scale_Machine_Learning.html})\relax }}{37}{figure.caption.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Illustration of random forest\relax }}{39}{figure.caption.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Illustration of Artificial Neural Network with one hidden layer\relax }}{40}{figure.caption.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Feed-forward Neural Network (Image sources: \url {http://technobium.com/stock-market-prediction-using-neuroph-neural-networks/})\relax }}{41}{figure.caption.101}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Network Structure of the cluster\relax }}{52}{figure.caption.128}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Flow Chart of the whole system\relax }}{46}{figure.caption.117}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Network Structure of the cluster\relax }}{49}{figure.caption.123}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -64,85 +58,87 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Testing result of using 4 years historical data\relax }}{68}{figure.caption.164}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Testing result of using 4 years historical data\relax }}{65}{figure.caption.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{68}{figure.caption.164}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{65}{figure.caption.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MSE}}}{68}{figure.caption.164}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MSE}}}{65}{figure.caption.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Testing result of using 4 years historical data (continue)\relax }}{69}{figure.caption.167}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Testing result of using 4 years historical data (continue)\relax }}{66}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{69}{figure.caption.167}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{66}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{69}{figure.caption.167}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{66}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Testing result of using 3 year as test result\relax }}{70}{figure.caption.170}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Testing result of using 3 year as test result\relax }}{67}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{70}{figure.caption.170}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{67}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ME}}}{70}{figure.caption.170}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ME}}}{67}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Testing result of using 3 year as test result (continue)\relax }}{71}{figure.caption.173}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Testing result of using 3 year as test result (continue)\relax }}{68}{figure.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MSE}}}{71}{figure.caption.173}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MSE}}}{68}{figure.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{71}{figure.caption.173}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{68}{figure.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Testing result of using 2 years historical data\relax }}{72}{figure.caption.176}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Testing result of using 2 years historical data\relax }}{69}{figure.caption.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{72}{figure.caption.176}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{69}{figure.caption.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{72}{figure.caption.176}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{69}{figure.caption.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Testing result of using 2 years historical data (continue)\relax }}{73}{figure.caption.179}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Testing result of using 2 years historical data (continue)\relax }}{70}{figure.caption.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{73}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{70}{figure.caption.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{73}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{70}{figure.caption.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Testing result of using 1 year historical data\relax }}{74}{figure.caption.182}
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Testing result of using 1 year historical data\relax }}{71}{figure.caption.178}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{74}{figure.caption.182}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{71}{figure.caption.178}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{74}{figure.caption.182}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{71}{figure.caption.178}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Testing result of using 1 year historical data (continue)\relax }}{75}{figure.caption.185}
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Testing result of using 1 year historical data (continue)\relax }}{72}{figure.caption.181}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{75}{figure.caption.185}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{72}{figure.caption.181}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{75}{figure.caption.185}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Extend result about stock price and CDC\relax }}{77}{figure.caption.196}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Extend result about stock price and MAPE\relax }}{78}{figure.caption.197}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Extend result about stock price and CDC\relax }}{80}{figure.caption.200}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Extend result about stock price and MAPE\relax }}{80}{figure.caption.201}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Extend result about stock price and CDC\relax }}{81}{figure.caption.203}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Extend result about stock price and MAPE\relax }}{82}{figure.caption.204}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Extend result about stock price and CDC\relax }}{83}{figure.caption.206}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Extend result about stock price and MAPE\relax }}{83}{figure.caption.207}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.9}{\ignorespaces Active trading days of every tested stock\relax }}{84}{figure.caption.208}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.10}{\ignorespaces CDC test on other stock with same industries\relax }}{85}{figure.caption.210}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.11}{\ignorespaces MAPE test on other stock with same industries\relax }}{86}{figure.caption.211}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{72}{figure.caption.181}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Extend result about stock price and CDC\relax }}{74}{figure.caption.192}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Extend result about stock price and MAPE\relax }}{75}{figure.caption.193}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Extend result about stock price and CDC\relax }}{77}{figure.caption.196}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Extend result about stock price and MAPE\relax }}{77}{figure.caption.197}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Extend result about stock price and CDC\relax }}{78}{figure.caption.199}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Extend result about stock price and MAPE\relax }}{79}{figure.caption.200}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Extend result about stock price and CDC\relax }}{80}{figure.caption.202}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Extend result about stock price and MAPE\relax }}{80}{figure.caption.203}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Active trading days of every tested stock\relax }}{81}{figure.caption.204}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.10}{\ignorespaces CDC test on other stock with same industries\relax }}{82}{figure.caption.206}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.11}{\ignorespaces MAPE test on other stock with same industries\relax }}{83}{figure.caption.207}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Comparison between EMA and SMA\cite {9_sma_ema}\relax }}{92}{figure.caption.221}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Comparison of running time of three different training methods\relax }}{85}{figure.caption.212}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Comparison between EMA and SMA\cite {9_sma_ema}\relax }}{90}{figure.caption.220}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

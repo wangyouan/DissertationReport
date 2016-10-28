@@ -43,7 +43,7 @@ From the above description, MapReduce do not have efficient data sharing method.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{sparkcycle}
-	\caption{Data cycle in Hadoop MapReduce}
+	\caption{Data cycle in Apache Spark}
 	\label{fg:spark}
 \end{figure}
 
@@ -70,7 +70,12 @@ The result in contest also prove this theory. In the Daytona GraySort contest fo
 \end{table}
 
 
-\section{Core Technology in Spark}
+\section{Core Data Structure in Spark}
+
+Resilient distributed datasets and dataframe are the basic data structure used in Spark to handle data.\\
+
+\subsection{Resilient Distributed Datasets}
+
 Resilient distributed datasets, or RDD, designed based on Matei\cite{zaharia2012resilient}, is one of the core technology in Spark frame. RDD can be regard as a table in database, which can hold any type of data. Spark save data to different partitions RDD.\\
 
 
@@ -108,6 +113,9 @@ To solve the problems about fault tolerance, RDD support two type of operation
 	\item User can manually set checkpoint, at which Spark would truncated lineages and store data in reliably location, like HDFS\cite[Section~5.3]{zaharia2012resilient}.
 \end{enumerate}
 
+\subsection{Spark SQL and DataFrame}
+Spark SQL was introduced to process structured data, which provide an interface called DataFrame (Which was first released by Spark 1.3.0\footnote{\url{http://spark.apache.org/releases/spark-release-1-3-0.html}})
+
 \section{Spark Machine Learning Library (MLlib)}
 Apart from the above benefits, MLlib is another reason that why we choose spark. MLlib is the extensible machine learning  library of Spark, which composes of general learning algorithm and utilities, includes classification, regression, clustering, collaborative filtering, dimension reduction and tuning section\cite{meng2016mllib}.\\
 
@@ -115,10 +123,10 @@ Apart from the above benefits, MLlib is another reason that why we choose spark.
 As native supported by Apache Spark, MLlib has the following benefits\cite{meng2016mllib}: First, since Apache Spark is designed for iterative applications, MLlib directly gains benefits through the improvements of Spark's low-level components. Second, the widely accepted by open-source community of Spark has also led to rapid growth and adoption of MLlib. Third, MLlib has great performances advantages over Mahout, another popular distributed machine learning library. Experiments in \cite{1_li_jiang_zhang_boesch_xiao_2015} shows that MLlib is about 7--9 times faster than Mahout in FP-growth mining problem.\\
 
 
-Spark MLlib was divided into two libraries, mllib and ml from version 1.2. mllib contains the original API built on top of RDDs while ml provides higher-level API built on top of DataFrames for constructing ML pipelines.\\
+Spark MLlib was divided into two libraries, MlLib and ml from version 1.2. MlLib contains the original API built on top of RDDs while ml provides higher-level API built on top of DataFrames for constructing ML pipelines.\\
 
 
-Ml is more recommended by the official document, but mllib is still being supported. This dissertation is based on mllib, as mllib is much easier for me to obtain.
+Ml is more recommended by the official document, but MlLib is still being supported. This dissertation was first based on MlLib, and then migrated to ML.
 
 
 \section{Summary}
