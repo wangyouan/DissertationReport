@@ -200,6 +200,61 @@ However, the amount of data in this study is far away from large scale. Even tra
 
 In this study, the training iterations of our linear regression model are set to 100000, while the learning rate is 0.001.
 
+\subsubsection{Linear Support Vector Machines (SVMs)}
+Support Vector Machines (SVMs) was developed by Vladimir Vapnik\cite[p.~105]{4_kantardzic} and is one of the most popular supervised learning methods. This study uses SVM to solve the classification of stock change direction, a typical 2-class classification problem.\\
+
+
+Without loss of generality, let's using a simple 2-D example to illustrate this problem. Assume we have a set of data, and we want to classify them into two categorical classes. As figure~\ref{fg:SVM} shows, there exits two possible parting lines with different boundary sizes. Are these decision boundaries equally good?
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{svms}
+	\caption{Illustration of service vector machines (Image source: \url{https://de.wikipedia.org/wiki/Support_Vector_Machine})}
+	\label{fg:SVM}
+\end{figure}
+The main idea of SVM is: "The decision boundary should be as far away as possible from the data points of both class"\cite[p.~107]{4_kantardzic}. Based one the above idea, A is a better parting line than B (in figure~\ref{fg:SVM}).\\
+
+
+Mathematica description is as follows\cite[Section~4.5]{4_kantardzic}. Given a classification problem with a training set $ D $, belongs to two classes (using binary with -1 and 1)
+\begin{equation}
+D={(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)},x\in R^n, y\in{-1, 1},
+\end{equation}
+The hyperplane can be represented as
+\begin{equation}
+w \cdot x-b=0
+\end{equation}
+This means that
+\begin{align*}
+w \cdot x_i-b>0,& \text{if $y_i = 1$}\\
+w \cdot x_i-b<0,& \text{if $y_i = -1$}
+\end{align*}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{SVMHyperplane}
+	\caption{A separating hyperplane $ (w, b) $ for 2-D data (Image source: \url{https://de.wikipedia.org/wiki/Support_Vector_Machine})}
+	\label{fg:SVMHyperplane}
+\end{figure}
+
+To make things clear, in figure~\ref{fg:SVMHyperplane}, two hyperplanes are added where $ w \cdot x_i-b $ equal -1 (on the lower right) and +1 (on the upper left). Thus, the constraint can be represented by
+\begin{equation}
+y_i(w\cdot x_i-b)\ge 1, i=1,\dots,n
+\end{equation}
+
+Geometrically, the distance between these two hyperplanes is $ \frac{2}{\lVert w \rVert} $, to maximize the distance, we need to minimize $ \lVert w \rVert $. Then the question turn out to be a optimization problem. The classifier can then be constructed as:
+\begin{equation}
+f(x)=sign(w\cdot x - b)
+\end{equation}
+Obviously, the distance between two hyperplanes is determined by the those $ x_i $ which is lied nearest to the max-margin hyperplane. These $ x_i $ are called \emph{support vectors (SVx)}.\\
+
+However, in real-world applications, there are the cases where subsets cannot be completely separated (like figure~\ref{fg:SVM_soft})\cite[p.~113]{4_kantardzic}. In other words, the algorithm would find a balance between maximizing the margin and minimizing the classifications error during optimization process.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{svm_soft}
+	\caption{Soft margin of SVMs}
+	\label{fg:SVM_soft}
+\end{figure}
+
 \subsubsection{Logistic Regression}
 Logistic is also a widely used method to predict binary responses. Rather than predicting the value of the dependent variable in linear regression, logistic regression method estimates the probability that the dependent variable will choose from a given range\cite[Section~5.6, p.~157--158]{4_kantardzic}.
 
