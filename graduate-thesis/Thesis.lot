@@ -16,39 +16,35 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Hardware information\relax }}{48}{table.caption.121}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Hardware information\relax }}{52}{table.caption.133}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7.2}{\ignorespaces Primary Software information\relax }}{49}{table.caption.122}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8.1}{\ignorespaces Parameters of Every learning method\relax }}{51}{table.caption.126}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Primary Software information\relax }}{53}{table.caption.134}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.1}{\ignorespaces Average Stock Price (from 2014-01-06 to 2015-01-06)\relax }}{59}{table.caption.147}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.2}{\ignorespaces Average CDC of using 4 years historical data\relax }}{59}{table.caption.149}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.3}{\ignorespaces Average MAPE of using 4 years historical data\relax }}{59}{table.caption.150}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.4}{\ignorespaces Average CDC of using 3 years historical data\relax }}{60}{table.caption.152}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.5}{\ignorespaces Average MAPE of using 3 years historical data\relax }}{61}{table.caption.153}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.6}{\ignorespaces Average CDC of using 2 years historical data\relax }}{62}{table.caption.155}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.7}{\ignorespaces Average MAPE of using 2 years historical data\relax }}{62}{table.caption.156}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.8}{\ignorespaces Average CDC of using 2 year historical data\relax }}{63}{table.caption.158}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10.9}{\ignorespaces Average MAPE of using 1 year historical data\relax }}{63}{table.caption.159}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Parameters of Every learning method\relax }}{55}{table.caption.138}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.1}{\ignorespaces Average Stock Price (from 2014-01-06 to 2015-01-06)\relax }}{63}{table.caption.159}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.2}{\ignorespaces Average CDC of using 4 years historical data\relax }}{63}{table.caption.161}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.3}{\ignorespaces Average MAPE of using 4 years historical data\relax }}{63}{table.caption.162}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.4}{\ignorespaces Average CDC of using 3 years historical data\relax }}{64}{table.caption.164}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.5}{\ignorespaces Average MAPE of using 3 years historical data\relax }}{65}{table.caption.165}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.6}{\ignorespaces Average CDC of using 2 years historical data\relax }}{66}{table.caption.167}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.7}{\ignorespaces Average MAPE of using 2 years historical data\relax }}{66}{table.caption.168}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.8}{\ignorespaces Average CDC of using 2 year historical data\relax }}{67}{table.caption.170}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {10.9}{\ignorespaces Average MAPE of using 1 year historical data\relax }}{67}{table.caption.171}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -56,52 +52,56 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.1}{\ignorespaces ANN (Using 4 year historical data)\relax }}{92}{table.caption.229}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.2}{\ignorespaces Random Forest (Using 4 year historical data)\relax }}{93}{table.caption.230}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.3}{\ignorespaces Linear Regression (Using 4 year historical data)\relax }}{93}{table.caption.231}
+\contentsline {table}{\numberline {B.1}{\ignorespaces ANN (Using 4 year historical data)\relax }}{96}{table.caption.241}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.4}{\ignorespaces Random Forest + SVM (Using 4 year historical data)\relax }}{93}{table.caption.232}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Random Forest (Using 4 year historical data)\relax }}{97}{table.caption.242}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.5}{\ignorespaces Linear Regression + Logistic Regression (Using 4 year historical data)\relax }}{94}{table.caption.233}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Linear Regression (Using 4 year historical data)\relax }}{97}{table.caption.243}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.6}{\ignorespaces ANN + Random Forest (Using 4 year historical data)\relax }}{94}{table.caption.234}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Random Forest + SVM (Using 4 year historical data)\relax }}{97}{table.caption.244}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.7}{\ignorespaces ANN (Using 3 year historical data)\relax }}{95}{table.caption.236}
+\contentsline {table}{\numberline {B.5}{\ignorespaces Linear Regression + Logistic Regression (Using 4 year historical data)\relax }}{98}{table.caption.245}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.8}{\ignorespaces Linear Regression + Logistic Regression (Using 3 year historical data)\relax }}{95}{table.caption.237}
+\contentsline {table}{\numberline {B.6}{\ignorespaces ANN + Random Forest (Using 4 year historical data)\relax }}{98}{table.caption.246}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.9}{\ignorespaces Linear Regression (Using 3 year historical data)\relax }}{95}{table.caption.238}
+\contentsline {table}{\numberline {B.7}{\ignorespaces ANN (Using 3 year historical data)\relax }}{99}{table.caption.248}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.10}{\ignorespaces Random Forest + SVM (Using 3 year historical data)\relax }}{96}{table.caption.239}
+\contentsline {table}{\numberline {B.8}{\ignorespaces Linear Regression + Logistic Regression (Using 3 year historical data)\relax }}{99}{table.caption.249}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.11}{\ignorespaces ANN + Random Forest (Using 3 year historical data)\relax }}{96}{table.caption.240}
+\contentsline {table}{\numberline {B.9}{\ignorespaces Linear Regression (Using 3 year historical data)\relax }}{99}{table.caption.250}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.12}{\ignorespaces Random Forest (Using 3 year historical data)\relax }}{96}{table.caption.241}
+\contentsline {table}{\numberline {B.10}{\ignorespaces Random Forest + SVM (Using 3 year historical data)\relax }}{100}{table.caption.251}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.13}{\ignorespaces ANN (Using 2 year historical data)\relax }}{97}{table.caption.243}
+\contentsline {table}{\numberline {B.11}{\ignorespaces ANN + Random Forest (Using 3 year historical data)\relax }}{100}{table.caption.252}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.14}{\ignorespaces Linear Regression + Logistic Regression (Using 2 year historical data)\relax }}{97}{table.caption.244}
+\contentsline {table}{\numberline {B.12}{\ignorespaces Random Forest (Using 3 year historical data)\relax }}{100}{table.caption.253}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.15}{\ignorespaces Linear Regression (Using 2 year historical data)\relax }}{97}{table.caption.245}
+\contentsline {table}{\numberline {B.13}{\ignorespaces ANN (Using 2 year historical data)\relax }}{101}{table.caption.255}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.16}{\ignorespaces Random Forest + SVM (Using 2 year historical data)\relax }}{98}{table.caption.246}
+\contentsline {table}{\numberline {B.14}{\ignorespaces Linear Regression + Logistic Regression (Using 2 year historical data)\relax }}{101}{table.caption.256}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.17}{\ignorespaces ANN + Random Forest (Using 2 year historical data)\relax }}{98}{table.caption.247}
+\contentsline {table}{\numberline {B.15}{\ignorespaces Linear Regression (Using 2 year historical data)\relax }}{101}{table.caption.257}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.18}{\ignorespaces Random Forest (Using 2 year historical data)\relax }}{98}{table.caption.248}
+\contentsline {table}{\numberline {B.16}{\ignorespaces Random Forest + SVM (Using 2 year historical data)\relax }}{102}{table.caption.258}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.19}{\ignorespaces ANN (Using 1 year historical data)\relax }}{99}{table.caption.250}
+\contentsline {table}{\numberline {B.17}{\ignorespaces ANN + Random Forest (Using 2 year historical data)\relax }}{102}{table.caption.259}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.20}{\ignorespaces Linear Regression + Logistic Regression (Using 1 year historical data)\relax }}{99}{table.caption.251}
+\contentsline {table}{\numberline {B.18}{\ignorespaces Random Forest (Using 2 year historical data)\relax }}{102}{table.caption.260}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.21}{\ignorespaces Linear Regression (Using 1 year historical data)\relax }}{99}{table.caption.252}
+\contentsline {table}{\numberline {B.19}{\ignorespaces ANN (Using 1 year historical data)\relax }}{103}{table.caption.262}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.22}{\ignorespaces Random Forest + SVM (Using 1 year historical data)\relax }}{100}{table.caption.253}
+\contentsline {table}{\numberline {B.20}{\ignorespaces Linear Regression + Logistic Regression (Using 1 year historical data)\relax }}{103}{table.caption.263}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.23}{\ignorespaces ANN + Random Forest (Using 1 year historical data)\relax }}{100}{table.caption.254}
+\contentsline {table}{\numberline {B.21}{\ignorespaces Linear Regression (Using 1 year historical data)\relax }}{103}{table.caption.264}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {B.24}{\ignorespaces Random Forest (Using 1 year historical data)\relax }}{100}{table.caption.255}
+\contentsline {table}{\numberline {B.22}{\ignorespaces Random Forest + SVM (Using 1 year historical data)\relax }}{104}{table.caption.265}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.23}{\ignorespaces ANN + Random Forest (Using 1 year historical data)\relax }}{104}{table.caption.266}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.24}{\ignorespaces Random Forest (Using 1 year historical data)\relax }}{104}{table.caption.267}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

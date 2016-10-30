@@ -114,26 +114,42 @@ To solve the problems about fault tolerance, RDD support two type of operation
 \end{enumerate}
 
 \subsection{Spark SQL and DataFrame}
-Spark SQL was introduced to process structured data, which provide an interface called DataFrame (Which was first released by Spark 1.3.0\footnote{\url{http://spark.apache.org/releases/spark-release-1-3-0.html}})
+Spark SQL was first released in May 2014. The Goal of Spark SQL is to provide an efficient, extensive and programmer-friendly API within Spark programs (on native RDDs)\cite{armbrust2015spark}.\\ 
 
-\section{Spark Machine Learning Library (MLlib)}
+Spark SQL runs on top of Spark. Its structure is shown in figure~\ref{fg:spark_structure}. Spark SQL provide a data structure called DataFrame (Which was first released in Spark 1.3.0 on Mar. 13, 2015. \footnote{\url{http://spark.apache.org/releases/spark-release-1-3-0.html}}). This API is similar to the data frame concept in R\footnote{The R Project, \url{https://www.r-project.org/}} and python\footnote{Python Data Analysis Library \url{http://pandas.pydata.org/}}.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{DistributedSystem/Interface}
+	\caption{Interfaces to Spark SQL, and interaction with Spark\cite{armbrust2015spark}.}
+	\label{fg:spark_structure}
+\end{figure}
+
+
+Similar to RDDs, Spark DataFrames are also lazy, ``in that each DataFrame object represents a \textit{logical plan} to compute a dataset, but no execution occurs until the user calls a special '\textit{output operation}' such as \textit{save}.''\cite{armbrust2015spark}
+
+
+\section{Spark Machine Learning Library (MLlib \& ML)}
 Apart from the above benefits, MLlib is another reason that why we choose spark. MLlib is the extensible machine learning  library of Spark, which composes of general learning algorithm and utilities, includes classification, regression, clustering, collaborative filtering, dimension reduction and tuning section\cite{meng2016mllib}.\\
 
 
 As native supported by Apache Spark, MLlib has the following benefits\cite{meng2016mllib}: First, since Apache Spark is designed for iterative applications, MLlib directly gains benefits through the improvements of Spark's low-level components. Second, the widely accepted by open-source community of Spark has also led to rapid growth and adoption of MLlib. Third, MLlib has great performances advantages over Mahout, another popular distributed machine learning library. Experiments in \cite{1_li_jiang_zhang_boesch_xiao_2015} shows that MLlib is about 7--9 times faster than Mahout in FP-growth mining problem.\\
 
 
-Spark MLlib was divided into two libraries, MlLib and ml from version 1.2. MlLib contains the original API built on top of RDDs while ml provides higher-level API built on top of DataFrames for constructing ML pipelines.\\
+From version 1.2, Spark MLlib was divided into two libraries, MlLib and ML\footnote{Spark Release Note 1.2.0 \url{http://spark.apache.org/releases/spark-release-1-2-0.html}}. MlLib contains the original API built on top of RDDs, while ML provides higher-level API built on top of Spark DataFrames for constructing ML pipelines.\\
 
 
-Ml is more recommended by the official document, but MlLib is still being supported. This dissertation was first based on MlLib, and then migrated to ML.
+Ml is more recommended by the official document, but MlLib is still being supported. This dissertation was based on both MlLib, and ML.
 
 
 \section{Summary}
 Apache Spark is an open source framework optimized for iterative programs, like machine learning. That is why this study chooses Spark instead of MapReduce.\\
 
 
-The core technology of Spark is RDD, an immutable distributed data structure, which support two types of operation, transformation and action. RDD can be saved any type of storage, but usually is cached in memory. Spark utilize lazy evaluation which makes it harder to know which parts of your program are the bottleneck.\\
+The core technology of Spark is RDD, an immutable distributed data structure, which support two types of operation, transformation and action. RDD can be saved any type of storage, but usually is cached in memory.\\
+
+
+Spark SQL offers DataFrame API, which is also lazy but more similar to data frame concept in R and Python. Compares to RDD, Spark DataFrame offers much more programmer-friendly API.\\
 
 
 This study chooses MLlib because of its ease of use and tight integration with Spark.
