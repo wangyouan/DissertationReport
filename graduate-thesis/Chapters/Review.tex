@@ -1,7 +1,7 @@
 \chapter{Review}
 \label{ch:review}
 
-This chapter can be splitted into two parts, section~\ref{sec:dm_dc} summarizes previous work in data mining techniques and distributed computing; section~\ref{sec:mark_prediction} describes former studies on stock market.
+This chapter can be divided into three parts, section~\ref{sec:dm_dc} summarizes previous work in data mining techniques and distributed computing; Section~\ref{sec:mark_prediction} describes former studies on stock market; Section~\ref{sec:related_research} introduces some related works.
 
 \section{Review of Data Mining Techniques and Distributed Computing}
 \label{sec:dm_dc}
@@ -13,7 +13,7 @@ With increasing computing needs of data mining applications, expensive and hard-
 In this study, distributed data mining is used to derive a stock prediction model from historical data and apply that model to predict future market behaviors. The distributed system are mainly based on Apache Spark. The reason why this study choose Spark instead of MapReduce is in Chapter~\ref{ch:spark}.\\
  
 
-\section{Review of stock market understanding}
+\section{Review of Market Understanding}
 \label{sec:mark_prediction}
 From the very beginning of the Stock market birth, the greedy nature encourages human beings to explore how to predict its behaviors. Many theory has been developed over that.\\
 
@@ -29,8 +29,14 @@ EMH also can be divided into three forms\cite[Chapter~1, p.~7]{1_wong_1997}, wea
 
 Current researches and tests on stock market strongly against the random walk hypothesis, while support EMH. It is true that “ideal” efficient is non-exist, e.g. there are always noise traders\cite{de1990noise}, who adds some kind of unpredictability to market, which make it very hard to find a perfect model that can precisely predict price changes.
 
-\section{Review of Traditional Stock Prediction Method}
 
-Two ways have been tried to do the predict job, one is fundamental analysis, the other is technical approaches\cite{1_edwardsmagee_1997}. “Fundamental analysts believe that an investment instrument has its intrinsic value that can be derived from the behavior and performance of its company”, while “technical analysts, on the other hand, believe that the trends and patterns of an investment instrument’s price, volume, breadth, and trading activities reflect most of the relevant market information a decision maker can utilize to determine its value.”\cite{lam2004neural}, In brief, a fundamentalist utilizes business’s financial reports to predict stock behaviors, while technician just analyze historical stock trading information.\\
+\section{Related Research}
+\label{sec:related_research}
 
-\section{Review of Machine Learning Stock Prediction Method}
+In this section, several systems and research papers are compared here.\\
+
+
+Many researchers focus on using machine learning algorithm to predict stock price change direction. Marcelo S. Lauretto and his colleagues combine random forests with technical indicators to predict stocks in BM\&F/BOVESPA exchange market(located at São Paulo, Brazil)\cite{lauretto2013evaluation}. Those indicators include EMA, RSI, MACD, etc. Their method is able to size around 70\% opportunities. Manish Kumar and M. Thenmozhi compares the performance of using non-linear SVM, Random Forest, Logistic Regression to predict the change direction of National Stock Exchange of India's benchmark stock market index for Indian\cite{kumar2006forecasting}. In their experiments, SVM reaches the highest accuracy, whose hit ratio is 68.44\%.\\
+
+
+There are also many researchers predict stock price directly. Such researcher mainly focus on artificial neural network. Devadoss and Ligori use ANN to predict four India companies\cite{devadoss2013forecasting}. They test two neural networks with different hidden nodes number and find one with better performance. Naeini tests using different variables as input, their target market is Tehran Stock Market (in Iran)\textit{naeini2010stock}.
