@@ -16,34 +16,24 @@ let $ \hat{p} $ be the predicted variable, $ p $ be the actual stock price, $ \e
 	MSE = \frac{1}{N} \sum_{i=1}^{N}\epsilon_i^2=\frac{1}{N} \sum_{i=1}^{N} (\hat{p}_i - p_i)^2
 	\end{equation}
 	
-	\item \textit{Root Mean Square Error} (RMSE)
-	\begin{equation}
-	RMSE = \sqrt{\frac{1}{N} \sum_{i=1}^{N}\epsilon_i^2}=\sqrt{\frac{1}{N} \sum_{i=1}^{N} (\hat{p}_i - p_i)^2}
-	\end{equation}
-	
-	\item \textit{Mean Absolute Error} (MAE)
-	\begin{equation}
-	MAE=\frac{1}{N} \sum_{i=1}^{N} \lvert \epsilon_i \rvert =\frac{1}{N} \sum_{i=1}^{N} \lvert \hat{p}_i - p_i \rvert
-	\end{equation}
-	
 	\item \textit{Mean Absolute Percent Error} (MAPE)
 	\begin{equation}
 	MAPE=\frac{1}{N} \sum_{i=1}^{N} \frac{\lvert \epsilon_i \rvert}{p_i} =\frac{1}{N} \sum_{i=1}^{N} \frac{\lvert \hat{p}_i - p_i \rvert}{p_i}
-	\end{equation}
-	
-	\item \textit{Heteroscedasticity-adjust Mean Square Error} (HMSE)
-	\begin{equation}
-	HMSE=\frac{1}{N} \sum_{i=1}^{N}[\frac{p_i}{\hat{p}_i}- 1]^2
 	\end{equation}
 \end{itemize}
 The first four measurements is scaled by predicted volatility, which are suitable to compare the prediction of same stock during equal period. The later two can be used to compare every method as they represent percentage errors.\\
 
 
-In addition to knowing the amount of changes measurement, the direction of prices is also very important. Here, corrected direction change (CDC)\cite{naeini2010stock} are used
+In addition to get the amount of changes measurement, the direction of prices is also very important. Here, corrected direction change (CDC)\cite{naeini2010stock} are used
 \begin{equation}
 CDC = \frac{\text{Number of Corrected Forecast Trend}}{N}
 \end{equation}
 A completely random prediction should have $ 50\% $ CDC, so for a reliable forecast, this value should be greater than $ 50\% $\\
 
 
-This is no measurement that are perfect enough to compare all learning algorithms, all criteria would be considered as a whole. Besides, as there are some randomness in the training method, all the result would be tested 3 times and get the average.
+This is no measurement that are perfect enough to compare all learning algorithms, all criteria would be considered as a whole. Besides, as there are some randomness in the training method, all the result would be tested 3 times and get the average.\\
+
+If no specification, in next chapters, the results are based on the following parameters:
+\begin{enumerate}
+	\item \textbf{}
+\end{enumerate}
