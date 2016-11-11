@@ -1,0 +1,78 @@
+\chapter{Test result on different data period}
+\label{ch:futuerDiscuss}
+
+In chapter~\ref{ch:AccuracyResult}, the results are shown in same data period. If I change the data period, will the conclusion change or not?\\
+
+The following tables shows different period results. All the results are generated from 1.5 years training data and 1 year testing data.
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& \textbf{CDC}     & \textbf{MSE}  & \textbf{MAPE}   & \textbf{time}  \\ \hline
+		\textbf{ANN}       & 50.73\%          & 28.19         & 12.93\%         & 91.55          \\ \hline
+		\textbf{ANN + ANN} & 50.73\%          & 4.02          & 5.44\%          & 60.26          \\ \hline
+		\textbf{LR}        & 50.68\%          & \textbf{0.52} & \textbf{1.59\%} & 64.68          \\ \hline
+		\textbf{LogR + RF} & \textbf{50.87\%} & 0.76          & 2.06\%          & 45.67          \\ \hline
+		\textbf{RF}        & 50.49\%          & 16.48         & 9.96\%          & 68.89          \\ \hline
+		\textbf{RF + LinR} & 49.89\%          & \textbf{0.52} & 1.60\%          & \textbf{40.23} \\ \hline
+	\end{tabular}
+	\caption{Data Period: 2011.01.06 to 2013.07.06}
+	\label{tb:DataPeriod1}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& \textbf{CDC}     & \textbf{MSE}  & \textbf{MAPE}   & \textbf{time}  \\ \hline
+		\textbf{ANN}       & 50.15\%          & 29.90         & 11.76\%         & 167.78         \\ \hline
+		\textbf{ANN + ANN} & 51.02\%          & 3.90          & 4.96\%          & 132.11         \\ \hline
+		\textbf{LR}        & \textbf{52.49\%} & 0.64          & 1.59\%          & 110.23         \\ \hline
+		\textbf{LogR + RF} & 52.25\%          & 0.79          & 2.01\%          & 104.27         \\ \hline
+		\textbf{RF}        & 51.42\%          & 26.50         & 9.44\%          & 116.42         \\ \hline
+		\textbf{RF + LinR} & 51.49\%          & \textbf{0.55} & \textbf{1.57\%} & \textbf{96.30} \\ \hline
+	\end{tabular}
+	\caption{Data Period: 2011.07.06 to 2014.01.06}
+	\label{tb:DataPeriod2}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\textbf{}         & \textbf{CDC}     & \textbf{MSE}  & \textbf{MAPE}   & \textbf{time}   \\ \hline
+		\textbf{ANN}       & 50.26\%          & 32.63         & 10.17\%         & 211.50          \\ \hline
+		\textbf{ANN + ANN} & 50.46\%          & 3.27          & 4.50\%          & 176.99          \\ \hline
+		\textbf{LR}        & 51.44\%          & 0.71          & \textbf{1.52\%} & 158.92          \\ \hline
+		\textbf{LogR + RF} & \textbf{51.66\%} & 0.85          & 1.92\%          & 141.17          \\ \hline
+		\textbf{RF}        & 50.93\%          & 25.81         & 6.32\%          & 165.20          \\ \hline
+		\textbf{RF + LinR} & 51.02\%          & \textbf{0.68} & 1.57\%          & \textbf{137.69} \\ \hline
+	\end{tabular}
+	\caption{Data Period: 2012.01.06 to 2014.07.06}
+	\label{tb:DataPeriod3}
+\end{table}
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& \textbf{CDC}     & \textbf{MSE}  & \textbf{MAPE}   & \textbf{time}   \\ \hline
+		\textbf{ANN}       & 50.69\%          & 41.78         & 10.48\%         & 293.37          \\ \hline
+		\textbf{ANN + ANN} & 49.56\%          & 3.51          & 4.43\%          & 268.89          \\ \hline
+		\textbf{LR}        & 50.47\%          & 0.94          & 1.54\%          & 210.92          \\ \hline
+		\textbf{LogR + RF} & \textbf{51.05\%} & 1.04          & 1.97\%          & \textbf{191.56} \\ \hline
+		\textbf{RF}        & 50.27\%          & 29.00         & 6.31\%          & 215.47          \\ \hline
+		\textbf{RF + LinR} & 50.94\%          & \textbf{0.76} & \textbf{1.50\%} & 195.53          \\ \hline
+	\end{tabular}
+	\caption{Data Period: 2012.07.06 to 2015.01.06}
+	\label{tb:DataPeriod4}
+\end{table}
+
+\clearpage
+
+In those results, as I change test environment, the run time seems a little higher than before. Here we do not need to compare their running performance, but only to contrast their predict accuracy.\\
+
+Those algorithms look seem as the original test, except that the MSE value of ANN and RF are much more smaller. But still a bit larger than the other methods.

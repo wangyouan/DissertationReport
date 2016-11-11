@@ -4,15 +4,18 @@
 This chapters shows the details of whole system, including parameters of all training and transforming algorithm, and processing of each part.
 
 \section{Detail Parameters}
-Details of the parameters can be found in Table~\ref{tb:parameters}, the reason why I choose these parameter are list in Chapter~\ref{ch:parameter_selection}.
+This section introduces the detail parameters of the training system.
+
+\subsection{Learning Algorithm parameters}
+
+Details of the parameters can be found in Table~\ref{tb:parameters}, the reason why I choose these parameter are list in Chapter~\ref{ch:parameterSelection}.
 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|l|l|l|}
 		\hline
 		\multicolumn{1}{|c|}{\textbf{Algorithm}} & \multicolumn{1}{c|}{\textbf{Parameters}} & \multicolumn{1}{c|}{\textbf{Optimize Method}} \\ \hline
-		\textbf{\begin{tabular}[c]{@{}l@{}}Random Forest\\ (Classifier \& Regressor)\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Trees Number: 40\\ Max Depth: 20\end{tabular} & NA \\ \hline
-		\textbf{SVM} & \begin{tabular}[c]{@{}l@{}}Iterations: 100000\\ Learning rate: 0.001\end{tabular} & SGD \\ \hline
+		\textbf{\begin{tabular}[c]{@{}l@{}}Random Forest\\ (Classifier \& Regressor)\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Trees Number: 20\\ Max Depth: 20\end{tabular} & NA \\ \hline
 		\textbf{Logistic Regression} & \begin{tabular}[c]{@{}l@{}}Iterations: 100000\\ Learning rate: 0.001\end{tabular} & SGD \\ \hline
 		\textbf{Linear Regression} & \begin{tabular}[c]{@{}l@{}}Iterations: 100000\\ Learning rate: 0.001\end{tabular} & SGD \\ \hline
 		\textbf{ANN} & \begin{tabular}[c]{@{}l@{}}Iterations: 15\\ Learning rate: 0.0001\end{tabular} & BGD \\ \hline
@@ -26,13 +29,13 @@ For the normalization method, the range of min-max normalizer is $ [-1, 1] $.\\
 
 The PCA transformer follows the default configuration in sklearn.\\
 
-The neural network is a four-layer (two hidden layer) model. A two-layer model is just same as linear regression. The reason for choosing 2 hidden layers is that "can represent an arbitrary decision boundary to arbitrary accuracy with rational activation functions and can approximate any smooth mapping to any accuracy"\cite[p.~128]{heaton2008introduction}.\\
+The neural network is a three-layer (one hidden layer) model. A two-layer model is just same as linear regression, and the number of hidden nodes is 30.
 
-
-To determine the number of neurons use in the hidden layers, Jeff Heaton also wrote in \cite[p.~129]{heaton2008introduction} that "The number of hidden neurons should be between the size of the input layer and the size of the output layer". So, in this study, the nodes number of the first hidden layer is $ \frac{2}{3} $ of that of the input layer, and that of the second is $ \frac{1}{3} $ of that of the input layer.
+\subsection{Test date}
+If no specification, all data are in the period starts with 2013-07-06 and ends with 2016-01-06. Data in 2013-07-06 to 2015-01-05 are to used to train, those between 2015-01-06 and 2016-01-06 are used to test.\\
 
 \section{Data Mining Processing}
-The data mining process in this system include data preprocessing, data normalization, PCA transformation, model training and price prediction. The technique details about data process are introduced in Chapter~\ref{ch:mining}. Data clean process just follows the rules introduced in section~\ref{sec:dataClean}, let's start with the transformation process.
+The data mining process in this system include data preprocessing, data normalization, PCA transformation, model training and price prediction. The technique details about data process are introduced in Chapter~\ref{ch:mining}. Data clean process just follows the rules introduced in section~\ref{sec:dataClean}, let's start with the transformation process.\\
 
 \subsection{Data Transformation (Normalization and PCA)}
 
@@ -43,6 +46,9 @@ Feature vectors transform process are,
 	\item Train a second data normalizer (also Min Max Normalization) and translate step 2's output into processed data.
 	\item Use the same transformer in step 1-3 to transform testing features step by step.
 \end{enumerate}
+
+\underline{The above feature process didn't used on technical indicators like RSI, ROC, etc.} As those indicators are not needed to be normalized.\\
+
 
 The label data process only handles training data, there are two types of transform method based on the model used in next step,
 \begin{itemize}
@@ -68,9 +74,23 @@ After the above process, data is transformed and can be used for model training.
 
 \subsection{Model Training and Predicting process}
 As described before, there are two types of combination of learning methods used in this dissertation. 
+
+
 \begin{itemize}
 	\item Using one single algorithm to predict the stock price directly. Such algorithms include Linear Regression, Random Forest and ANN
-	\item A combination of two learning method, using one algorithm to predict change direction (Logistic Regression, Random Forest and SVM), another to forecast amount (Linear Regression, Random, Forest and ANN). The two method works separately, and the predict result is the combination of both model.
+	\item A combination of two learning method, using one algorithm to predict change direction (Logistic Regression, Random Forest and ANN), another to forecast amount (Linear Regression, Random, Forest and ANN). The two method works separately, and the predict result is the combination of both model.
 \end{itemize}
 
-These two system are almost the same in both process.
+These two system are almost the same in both process. The steps are shown in below:
+
+\begin{enumerate}
+	\item Use the training data to train a model. If this is a combination training system, then will train two models, one is to predict stock change amount, and the other one is used to forecast stock change direction.
+	\item Use the above model(s) and based on test features to predict stock price.
+\end{enumerate}
+
+After the above progress, we can get a predict model and target price.
+
+\subsection{Window Size training process}
+This system also contains window size, which can used to predict system to predict one month data each instead of predict one year directly. this process is repeat every turn. The window size can be adjusted in units of months.
+
+

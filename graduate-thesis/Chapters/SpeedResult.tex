@@ -1,22 +1,22 @@
 \chapter{Speed Result}
 \label{ch:speedResult}
 
+Table~\ref{tb:runningTime} are testing result.\\
 
-\section{Testing Environment}
-The testing environment in this chapter is a little different form that is listed in Section~\ref{sec:environment} as . \\
-
-
-\section{Testing Method}
-Every method are trained 10 times. Target stock is 0001.HK. This testing uses two years historical data to predict 1 year data, whose whole period is from 2011-01-6 to 2014-01-06. 
-
-\section{Testing Result}
-The final result is the average performance of these method is showed in figure~\ref{fg:running_time}.
-
-\begin{figure}[h]
+\begin{table}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{RunningResult/WorkerVsTime}
-	\caption{Comparison of running time of three different training methods}
-	\label{fg:running_time}
-\end{figure}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\textbf{Worker Numbers} & \textbf{ANN} & \textbf{LR} & \textbf{RT} \\ \hline
+		\textbf{2}              & 30.356756    & 11.033707   & 5.689097    \\ \hline
+		\textbf{4}              & 24.656051    & 12.359999   & 6.826605    \\ \hline
+		\textbf{6}              & 28.979108    & 13.080687   & 7.436696    \\ \hline
+		\textbf{8}              & 20.261038    & 23.451626   & 17.863971   \\ \hline
+		\textbf{10}             & 21.283275    & 23.756444   & 17.720455   \\ \hline
+		\textbf{12}             & 20.695345    & 24.761506   & 17.842046   \\ \hline
+	\end{tabular}
+	\caption{Running time result}
+	\label{tb:runningTime}
+\end{table}
 
-ANN shows 
+From the table~\ref{tb:runningTime} we can find that, only ANN shows the trend that running time decrease as the worker number increases, the other two algorithms show an opposite trend. This may because that the computational load is not enough to show the beneficial of distributed computing. So I also did another test, use the same environment to train around 500 trees.

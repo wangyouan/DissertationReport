@@ -58,7 +58,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Network Structure of the cluster\relax }}{53}{figure.caption.134}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Network Structure of the cluster\relax }}{54}{figure.caption.135}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -66,96 +66,62 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.1}{\ignorespaces The average MSE result vs different random forest tree number\relax }}{62}{figure.caption.155}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces The average MSE result vs different random forest tree number\relax }}{64}{figure.caption.161}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.2}{\ignorespaces The average CDC result vs different random forest tree number\relax }}{62}{figure.caption.156}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces The average CDC result vs different random forest tree number\relax }}{64}{figure.caption.162}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10.3}{\ignorespaces The average CDC result vs different random forest tree number\relax }}{63}{figure.caption.157}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces The average running time result vs different random forest tree number\relax }}{65}{figure.caption.163}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.4}{\ignorespaces The average MSE result vs different hidden nodes number\relax }}{65}{figure.caption.165}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Testing result of using 4 years historical data\relax }}{71}{figure.caption.172}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces The average CDC result vs different hidden nodes number\relax }}{66}{figure.caption.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{71}{figure.caption.172}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MSE}}}{71}{figure.caption.172}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Testing result of using 4 years historical data (continue)\relax }}{72}{figure.caption.175}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{72}{figure.caption.175}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{72}{figure.caption.175}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Testing result of using 3 year as test result\relax }}{73}{figure.caption.178}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{73}{figure.caption.178}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ME}}}{73}{figure.caption.178}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Testing result of using 3 year as test result (continue)\relax }}{74}{figure.caption.181}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MSE}}}{74}{figure.caption.181}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {HMSE}}}{74}{figure.caption.181}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Testing result of using 2 years historical data\relax }}{75}{figure.caption.184}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{75}{figure.caption.184}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{75}{figure.caption.184}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Testing result of using 2 years historical data (continue)\relax }}{76}{figure.caption.187}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{76}{figure.caption.187}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{76}{figure.caption.187}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.7}{\ignorespaces Testing result of using 1 year historical data\relax }}{77}{figure.caption.190}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ME}}}{77}{figure.caption.190}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MAPE}}}{77}{figure.caption.190}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11.8}{\ignorespaces Testing result of using 1 year historical data (continue)\relax }}{78}{figure.caption.193}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RMSE}}}{78}{figure.caption.193}
-\defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CDC}}}{78}{figure.caption.193}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces The average running time result vs different hidden nodes number\relax }}{66}{figure.caption.167}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Extend result about stock price and CDC\relax }}{80}{figure.caption.204}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Linear Regression CDC result\relax }}{70}{figure.caption.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Extend result about stock price and MAPE\relax }}{81}{figure.caption.205}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Linear Regression MSE result\relax }}{70}{figure.caption.176}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Extend result about stock price and CDC\relax }}{83}{figure.caption.208}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Linear Regression MAPE result\relax }}{71}{figure.caption.177}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Extend result about stock price and MAPE\relax }}{83}{figure.caption.209}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Random Forest CDC result\relax }}{72}{figure.caption.179}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Extend result about stock price and CDC\relax }}{84}{figure.caption.211}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Random Forest MSE result\relax }}{73}{figure.caption.180}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Extend result about stock price and MAPE\relax }}{85}{figure.caption.212}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Random Forest MAPE result\relax }}{73}{figure.caption.181}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Extend result about stock price and CDC\relax }}{86}{figure.caption.214}
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Artificial Neural Network CDC result\relax }}{74}{figure.caption.183}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.8}{\ignorespaces Extend result about stock price and MAPE\relax }}{86}{figure.caption.215}
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Artificial Neural Network MSE result\relax }}{75}{figure.caption.184}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.9}{\ignorespaces Active trading days of every tested stock\relax }}{87}{figure.caption.216}
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Artificial Neural Network MAPE result\relax }}{75}{figure.caption.185}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.10}{\ignorespaces CDC test on other stock with same industries\relax }}{88}{figure.caption.218}
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Artificial Neural Network + Artificial Neural Network CDC result\relax }}{76}{figure.caption.187}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12.11}{\ignorespaces MAPE test on other stock with same industries\relax }}{89}{figure.caption.219}
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Artificial Neural Network + Artificial Neural Network MSE result\relax }}{77}{figure.caption.188}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Artificial Neural Network + Artificial Neural Network MAPE result\relax }}{77}{figure.caption.189}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Comparison of running time of three different training methods\relax }}{91}{figure.caption.224}
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Random Forest + Linear Regression CDC result\relax }}{78}{figure.caption.191}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Random Forest + Linear Regression MSE result\relax }}{79}{figure.caption.192}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.15}{\ignorespaces Random Forest + Linear Regression MAPE result\relax }}{79}{figure.caption.193}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.16}{\ignorespaces Logistic Regression + Random Forest CDC result\relax }}{80}{figure.caption.195}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.17}{\ignorespaces Logistic Regression + Random Forest MSE result\relax }}{81}{figure.caption.196}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.18}{\ignorespaces Logistic Regression + Random Forest MAPE result\relax }}{81}{figure.caption.197}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Comparison between EMA and SMA\cite {9_sma_ema}\relax }}{96}{figure.caption.232}
-\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Comparison between EMA and SMA\cite {9_sma_ema}\relax }}{91}{figure.caption.214}

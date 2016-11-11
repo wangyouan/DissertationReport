@@ -8,20 +8,83 @@ Details of selected data is introduced in Chapter~\ref{ch:market}, the date rang
 
 The input data types are introduced in Chapter~\ref{ch:market}.\\
 
-The stocks used here are those listed in HSI, there are 50 stocks in total. CK PROPERTY (1113.HK) is deleted as it is a really new stock (start from 2015-06-03). I replace it with HKT Trust and HKT Limited (6823.HK). Brief introduction information of some of those stocks can be found in Appendix~\ref{append:stock_info}.\\
+The stocks used here are those listed in HSI, there are 50 stocks in total. CK PROPERTY (1113.HK) is deleted as it is a really new stock (start from 2015-06-03). I replace it with HKT Trust and HKT Limited (6823.HK). All those stocks are listed in table~\ref{tb:stockList}.\\
 
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			\textbf{Symbol}  & \textbf{Company Name}                            & \textbf{Sector}  & \textbf{Industry}                         \\ \hline
+			\textbf{0001.HK} & CK Hutchison Holdings Limited                    & Financial        & Real Estate Development                   \\ \hline
+			\textbf{0002.HK} & CLP Holdings Ltd.                                & Utilities        & Electric Utilities                        \\ \hline
+			\textbf{0003.HK} & The Hong Kong and China Gas Company Limited      & Utilities        & Gas Utilities                             \\ \hline
+			\textbf{0004.HK} & The Wharf (Holdings) Limited                     & Financial        & Property Management                       \\ \hline
+			\textbf{0005.HK} & HSBC Holdings plc                                & Financial        & Money Center Banks                        \\ \hline
+			\textbf{0006.HK} & Power Assets Holdings Limited                    & Utilities        & Diversified Utilities                     \\ \hline
+			\textbf{0011.HK} & Hang Seng Bank Limited                           & Financial        & Money Center Banks                        \\ \hline
+			\textbf{0012.HK} & Henderson Land Development Co. Ltd.              & Financial        & Real Estate Development                   \\ \hline
+			\textbf{0016.HK} & Sun Hung Kai Properties Limited                  & Financial        & Real Estate Development                   \\ \hline
+			\textbf{0017.HK} & New World Development Company Limited            & Financial        & Real Estate Development                   \\ \hline
+			\textbf{0019.HK} & Swire Pacific Limited                            & Conglomerates    & Conglomerates                             \\ \hline
+			\textbf{0023.HK} & The Bank of East Asia, Limited                   & Financial        & Money Center Banks                        \\ \hline
+			\textbf{0027.HK} & Galaxy Entertainment Group Limited               & Services         & Resorts \& Casinos                        \\ \hline
+			\textbf{0066.HK} & MTR Corporation Limited                          & Services         & Railroads                                 \\ \hline
+			\textbf{0083.HK} & Sino Land Company Limited                        & Financial        & Real Estate Development                   \\ \hline
+			\textbf{0101.HK} & Hang Lung Properties Limited                     & None             & None                                      \\ \hline
+			\textbf{0135.HK} & Kunlun Energy Company Limited                    & Basic Materials  & Independent Oil \& Gas                    \\ \hline
+			\textbf{0144.HK} & China Merchants Port Holdings Company Limited    & Services         & Shipping                                  \\ \hline
+			\textbf{0151.HK} & Want Want China Holdings Ltd.                    & Consumer Goods   & Food - Major Diversified                  \\ \hline
+			\textbf{0267.HK} & CITIC Limited                                    & Basic Materials  & Steel \& Iron                             \\ \hline
+			\textbf{0293.HK} & Cathay Pacific Airways Limited                   & Services         & Major Airlines                            \\ \hline
+			\textbf{0386.HK} & China Petroleum \& Chemical Corp.                & Basic Materials  & Major Integrated Oil \& Gas               \\ \hline
+			\textbf{0388.HK} & Hong Kong Exchanges \& Clearing Limited          & Financial        & Mortgage Investment                       \\ \hline
+			\textbf{0494.HK} & Li \& Fung Limited                               & Services         & Air Delivery \& Freight Services          \\ \hline
+			\textbf{0688.HK} & China Overseas Land \& Investment Ltd.           & Financial        & Asset Management                          \\ \hline
+			\textbf{0700.HK} & Tencent Holdings Limited                         & Technology       & Internet Information Providers            \\ \hline
+			\textbf{0762.HK} & China Unicom (Hong Kong) Limited                 & Technology       & Wireless Communications                   \\ \hline
+			\textbf{0823.HK} & Link Real Estate Investment Trust                & Financial        & REIT - Retail                             \\ \hline
+			\textbf{0836.HK} & China Resources Power Holdings Co. Ltd.          & Utilities        & Diversified Utilities                     \\ \hline
+			\textbf{0857.HK} & PetroChina Co. Ltd.                              & Basic Materials  & Major Integrated Oil \& Gas               \\ \hline
+			\textbf{0883.HK} & CNOOC Ltd.                                       & Basic Materials  & Independent Oil \& Gas                    \\ \hline
+			\textbf{0939.HK} & China Construction Bank Corporation              & Financial        & Money Center Banks                        \\ \hline
+			\textbf{0941.HK} & China Mobile Limited                             & Technology       & Wireless Communications                   \\ \hline
+			\textbf{0992.HK} & Lenovo Group Limited                             & Technology       & Computer Based Systems                    \\ \hline
+			\textbf{1038.HK} & Cheung Kong Infrastructure Holdings Ltd.         & Industrial Goods & Heavy Construction                        \\ \hline
+			\textbf{1044.HK} & Hengan International Group Company Limited       & Consumer Goods   & Personal Products                         \\ \hline
+			\textbf{1088.HK} & China Shenhua Energy Co. Ltd.                    & Basic Materials  & Industrial Metals \& Minerals             \\ \hline
+			\textbf{1109.HK} & China Resources Land Limited                     & Financial        & Real Estate Development                   \\ \hline
+			\textbf{1299.HK} & AIA Group Limited                                & Financial        & Life Insurance                            \\ \hline
+			\textbf{1398.HK} & Industrial and Commercial Bank of China Limited  & Financial        & Money Center Banks                        \\ \hline
+			\textbf{1880.HK} & Belle International Holdings Limited             & Consumer Goods   & Textile - Apparel Footwear \& Accessories \\ \hline
+			\textbf{1928.HK} & Sands China Ltd.                                 & Services         & Resorts \& Casinos                        \\ \hline
+			\textbf{2018.HK} & AAC Technologies Holdings Inc.                   & Technology       & Communication Equipment                   \\ \hline
+			\textbf{2318.HK} & Ping An Insurance (Group) Company of China, Ltd. & Financial        & Life Insurance                            \\ \hline
+			\textbf{2319.HK} & China Mengniu Dairy Co. Ltd.                     & Consumer Goods   & Food - Major Diversified                  \\ \hline
+			\textbf{2388.HK} & BOC Hong Kong (Holdings) Limited                 & Financial        & Money Center Banks                        \\ \hline
+			\textbf{2628.HK} & China Life Insurance Co. Ltd.                    & Financial        & Life Insurance                            \\ \hline
+			\textbf{3328.HK} & Bank of Communications Co., Ltd.                 & Financial        & Money Center Banks                        \\ \hline
+			\textbf{3988.HK} & Bank of China Limited                            & Financial        & Money Center Banks                        \\ \hline
+			\textbf{6823.HK} & HKT Trust and HKT Limited                        & None             & None                                      \\ \hline
+		\end{tabular}%
+	}
+	\caption{Stock List}
+	\label{tb:stockList}
+\end{table}
 
 \section{Testing Environment}
 \label{sec:environment}
-The model of physical computer is Dell Inspiron Ins14VD-4516, details about the hardware information is showed in table~\ref{tb:hardwareConf}, software are listed in table~\ref{tb:softwareList}
+Details about the hardware information is showed in table~\ref{tb:hardwareConf}, software are listed in table~\ref{tb:softwareList}
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|l|l|}
 		\hline
 		\textbf{Name} & \textbf{Details} \\ \hline
-		CPU & Intel Core i5 4200U \\ \hline
-		Memory & DDR3L 1600MHz 8GB(4GBx2) \\ \hline
-		Hard disk & 500GB 5400 rpm \\ \hline
+		CPU & Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz (20 cores) \\ \hline
+		Memory & 32GB DIMM Synchronous 2133 MHz (0.5 ns) (8GBx4) \\ \hline
+		Hard disk & 8TB MR9341-8i \\ \hline
 	\end{tabular}
 	\caption{Hardware information}
 	\label{tb:hardwareConf}
@@ -32,17 +95,16 @@ The model of physical computer is Dell Inspiron Ins14VD-4516, details about the 
 	\begin{tabular}{|l|l|}
 		\hline
 		\textbf{Name} & \textbf{Details} \\ \hline
-		OS & Ubuntu (Host version: 16.04, Guest version: 14.04) \\ \hline
-		Virtualbox & Version 5.0.20 r106931 \\ \hline
-		Python & 2.7.6 \\ \hline
-		Apache Spark & 1.6.1 \\ \hline
+		OS & Ubuntu 14.04.1 \\ \hline
+		Python & 2.7.12 \\ \hline
+		Apache Spark & 2.0.1 \\ \hline
 		Hadoop & 2.6.0 \\ \hline
 	\end{tabular}r
 	\caption{Primary Software information}
 	\label{tb:softwareList}
 \end{table}
-The cluster is formed by three virtual machines (as figure~\ref{fg:clustur}). "Master" is NameNode for HDFS, and Master, HistoryServer for Spark. The other two virtual machines work as DataNode (for HDFS) and worker (for Spark). Every computer has 40GB hard disk, 2GB memory and 1 virtual CPU core.
-\begin{figure}[h]
+The cluster is formed by virtual machines (as figure~\ref{fg:clustur}). The sample picture shows two workers, actually, this system can extend to 12 workers.
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.6\textwidth]{ClusterStructure}
 	\caption{Network Structure of the cluster}

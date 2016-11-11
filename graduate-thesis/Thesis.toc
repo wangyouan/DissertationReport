@@ -12,11 +12,11 @@
 \defcounter {refsection}{0}\relax 
 \vspace {1em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{ix}{dummy.5}
+\contentsline {chapter}{List of Figures}{viii}{dummy.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xi}{dummy.7}
+\contentsline {chapter}{List of Tables}{x}{dummy.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbreviations}{xiii}{dummy.9}
+\contentsline {chapter}{Abbreviations}{xi}{dummy.9}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
@@ -120,128 +120,74 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Raw data for training}{51}{section.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Testing Environment}{52}{section.131}
+\contentsline {section}{\numberline {7.2}Testing Environment}{52}{section.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Details of System}{54}{chapter.135}
+\contentsline {chapter}{\numberline {8}Details of System}{55}{chapter.136}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Detail Parameters}{54}{section.136}
+\contentsline {section}{\numberline {8.1}Detail Parameters}{55}{section.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Data Mining Processing}{55}{section.138}
+\contentsline {subsection}{\numberline {8.1.1}Learning Algorithm parameters}{55}{subsection.138}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Data Transformation (Normalization and PCA)}{56}{subsection.139}
+\contentsline {subsection}{\numberline {8.1.2}Test date}{56}{subsection.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Model Training and Predicting process}{57}{subsection.147}
+\contentsline {section}{\numberline {8.2}Data Mining Processing}{57}{section.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Model Evaluation}{59}{chapter.148}
+\contentsline {subsection}{\numberline {8.2.1}Data Transformation (Normalization and PCA)}{57}{subsection.142}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Parameter Selection}{61}{chapter.153}
+\contentsline {subsection}{\numberline {8.2.2}Model Training and Predicting process}{59}{subsection.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Random Forest}{61}{section.154}
+\contentsline {subsection}{\numberline {8.2.3}Window Size training process}{60}{subsection.153}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Model Accuracy Result for given 1 Year (2014)}{64}{chapter.158}
+\contentsline {chapter}{\numberline {9}Model Evaluation}{61}{chapter.154}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Using 4 years historical data}{65}{section.160}
+\contentsline {chapter}{\numberline {10}Parameter Selection}{63}{chapter.159}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Using 3 years historical data}{66}{section.163}
+\contentsline {section}{\numberline {10.1}Random Forest}{63}{section.160}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Using 2 years historical data}{67}{section.166}
+\contentsline {section}{\numberline {10.2}Artificial Neural Network}{64}{section.164}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Using 1 year historical data}{69}{section.169}
+\contentsline {section}{\numberline {10.3}Window Size}{66}{section.168}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}Summary}{70}{section.196}
+\contentsline {section}{\numberline {10.4}Summary}{67}{section.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Further Discuss on prediction method}{79}{chapter.202}
+\contentsline {chapter}{\numberline {11}Testing Result}{69}{chapter.173}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Does Stock Price have effects on stock prediction results?}{80}{section.203}
+\contentsline {section}{\numberline {11.1}Linear Regression}{69}{section.174}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Stock Performance on Specific Stocks with different time period}{82}{section.206}
+\contentsline {section}{\numberline {11.2}Random Forest}{72}{section.178}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.1}Test period 1 [from 2013-01-06 to 2016-01-06]}{83}{subsection.207}
+\contentsline {section}{\numberline {11.3}Artificial Neural Network}{74}{section.182}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.2}Test period 2 [from 2009-01-06 to 2012-01-06]}{84}{subsection.210}
+\contentsline {section}{\numberline {11.4}Artificial Neural Network + Artificial Neural Network}{76}{section.186}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.3}Test period 3 [from 2010-01-06 to 2013-01-06]}{85}{subsection.213}
+\contentsline {section}{\numberline {11.5}Random Forest + Linear Regression}{78}{section.190}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}Testing on algorithm favor of a specific stock}{87}{section.217}
+\contentsline {section}{\numberline {11.6}Logistic Regression + Random Forest}{80}{section.194}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Speed Result}{90}{chapter.220}
+\contentsline {section}{\numberline {11.7}Summary}{82}{section.198}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.1}Testing Environment}{90}{section.221}
+\contentsline {chapter}{\numberline {12}Test result on different data period}{83}{chapter.200}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.2}Testing Method}{90}{section.222}
+\contentsline {chapter}{\numberline {13}Speed Result}{86}{chapter.205}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.3}Testing Result}{91}{section.223}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Conclusion}{92}{chapter.225}
+\contentsline {chapter}{\numberline {14}Conclusion}{87}{chapter.207}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Technical Indicators}{94}{appendix.226}
+\contentsline {chapter}{\numberline {A}Technical Indicators}{89}{appendix.208}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Moving Average (MA)}{94}{section.227}
+\contentsline {section}{\numberline {A.1}Moving Average (MA)}{89}{section.209}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{95}{subsection.228}
+\contentsline {subsection}{\numberline {A.1.1}Simple Moving Average (SMA)}{90}{subsection.210}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{95}{subsection.230}
+\contentsline {subsection}{\numberline {A.1.2}Exponential Moving Average (EMA)}{90}{subsection.212}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{95}{section.233}
+\contentsline {section}{\numberline {A.2}Rate of Change (ROC)}{90}{section.215}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{96}{section.235}
+\contentsline {section}{\numberline {A.3}Relative Strength Index (RSI)}{91}{section.217}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{97}{section.237}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Testing Result}{98}{appendix.239}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Using 4 year historical data}{98}{section.240}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Using 3 year historical data}{100}{section.247}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Using 2 year historical data}{103}{section.254}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Using 1 year historical data}{105}{section.261}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Introduction of company related in this dissertation}{107}{appendix.268}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}CK Hutchison Holdings Ltd.}{107}{section.269}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}CLP Holdings Ltd.}{108}{section.270}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Hong Kong and China Gas Co. Ltd., The}{108}{section.271}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Wharf (Holdings) Ltd., The}{109}{section.272}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.5}HSBC Holdings plc}{109}{section.273}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.6}Power Assets Holdings Ltd.}{110}{section.274}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.7}PCCW Ltd.}{110}{section.275}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.8}Nine Express Ltd.}{111}{section.276}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.9}Hang Lung Group Ltd.}{111}{section.277}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.10}Henderson Land Development Co. Ltd.}{112}{section.278}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.11}Hysan Development Co. Ltd.}{112}{section.279}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.12}Sun Hung Kai Properties Ltd.}{113}{section.280}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.13}Bank of East Asia, Ltd., The}{113}{section.281}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.14}Galaxy Entertainment Group Ltd.}{114}{section.282}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.15}Ban Loong Holdings Ltd.}{114}{section.283}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.16}Cross-Harbour (Holdings) Ltd., The}{115}{section.284}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.17}First Tractor Co Ltd. - H Shares}{115}{section.285}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.18}Cosmopolitan International Holdings Ltd.}{116}{section.286}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.19}MGM China Holdings Ltd.}{116}{section.287}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.20}HKT Trust and HKT Ltd. - SS}{117}{section.288}
+\contentsline {section}{\numberline {A.4}Moving Average Convergence Divergence (MACD)}{92}{section.219}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{118}{dummy.289}
+\contentsline {chapter}{Bibliography}{93}{dummy.221}
