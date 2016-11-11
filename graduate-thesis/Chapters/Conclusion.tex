@@ -1,15 +1,16 @@
 \chapter{Conclusion}
 \label{ch:conclusion}
 
-This dissertation tested the predict performance of ANN, SVM, linear regression, logistic regression and random forest method with input different time period historical data to predict the behavior of all kinds of stocks in HKEX. The stock market is so complicated that it is difficult to precisely predict its behavior.\\
+This dissertation tested the predict performance of ANN, linear regression, logistic regression and random forest method with input different time period historical data to predict the behavior of all kinds of stocks listed in HSI. The stock market is so complicated that it is difficult to precisely predict its behavior.\\
 
 
-After the study, the best method in predicting stock price change amount is ANN, which performs well in performance test and shows great potential in distributed computing. The best method to predict stock change direction is Linear Regression and SVM (their performance are almost the same). Using two years historical data is enough to achieve the best performance. \\
+After this study,the best method in predicting stock price change amount is Linear Regression, which performs well in performance test but didn't shows great potential in distributed computing. ANN has great potential in parallel computing, but its performance is not so good. \\
+
+However none of those algorithm is good enough to make profit. If we want to make more accurate predictions, we need to introduce a number of other factors. For example, add some sentiment analysis of the news in WSJ or on Twitter. Collect comments from Glassdoor, etc.\\
 
 
 In the future, there are still much improve space for distributed financial data forecaster,
 \begin{itemize}
-	\item \textbf{Explore the full potential of distributed computing power}. Limited to test environment, the running performance test does not complete. As using Numpy (non-distributed computing package) to compute matrix, ANN method also have some space to improve.
 	\item \textbf{Mine the relationship between the input data and target stock more deeply}. One possible approach to do this is use specific data for different stock, e.g. using some raw materials price as input data while predict the stock behavior of manufacturers. Another method relies more on technical indicators.
-	\item \textbf{Handle stock dividend and split}. This study just neglect this events. As there would be news beforehand, this type of error can be eliminated with proper design of system.
+	\item \textbf{Add some sentiment analysis}. This also known as opinion mining. Sentiment analysis can help us quickly grasp the market changes, as well as people's expectations on target company.
 \end{itemize}
